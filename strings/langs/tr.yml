@@ -1,0 +1,702 @@
+name: 🇹🇷 Türkçe
+
+general_1: Bir kullanıcının mesajına yanıt verin veya kullanıcı adını/kullanıcı kimliğini verin.
+general_2: |-
+  Sorgunuz işlenirken bir şeyler ters gitti.
+
+  Hata : <code>{0}</code>
+general_3: Bu sohbette anonim bir yöneticisiniz, kullanıcı hesabına geri dönün
+  beni kullandığın için.
+general_4: |-
+  Görüntülü sohbetleri yönetme izniniz yok.
+
+  /reload aracılığıyla yönetici önbelleğini yeniden yükle
+general_5: » Bot görüntülü sohbette yayın yapmıyor.
+tg_1: |-
+  <u><b>{0} İniyor</b></u>
+
+  <b>Dosya Boyutu :</b> {1}
+  <b>Tamamlanan :</b> {2}
+  <b>Yüzde :</b> {3}%
+
+  <b>Hız :</b> {4}/s
+  <b>Eta :</b> {5}
+tg_2: |-
+  Başarıyla indirildi, dosya işleniyor...
+
+  <b>Geçen zaman :</b> {0}
+tg_3: Medya telegramdan indirilemedi, lütfen tekrar deneyin...
+tg_4: İndirme işlemi zaten tamamlandı.
+tg_5: İndirme zaten tamamlandı veya iptal edildi.
+tg_6: İndirme işlemi iptal edildi.
+tg_7: "İndirme işlemi {0} tarafından iptal edildi"
+tg_8: İndirme işlemi durdurulamadı.
+tg_9: Devam eden indirme görevi alınamadı...
+call_1: bot, asistanı davet etmek için <b>kullanıcıları bağlantı yoluyla davet etme</b> iznine ihtiyaç duyuyor 
+call_2: |-
+  <u>{0} Asistan grubunuzda/kanalınızda yasaklı.</u>
+
+  <b>ID :</b> <code>{1}</code>
+  <b>İsim :</b> {2}
+  <b>Kullanıcı adı :</b> @{3}
+
+  Lütfen asistanın yasağını kaldırın ve tekrar deneyin.
+call_3: |-
+  {0} asistanı sohbetinize davet edilemedi.
+
+  Sebep : <code>{1}</code>
+call_4: |-
+ Lütfen bekleyin...
+
+  {0} asistanı sohbetinize davet ediliyor...
+call_5: |-
+ {0} Asistan başarıyla katıldı.
+
+  Yayın başlatılmaya çalışılıyor...
+call_6: Akış değiştirilemedi. Parçayı tekrar değiştirmek için lütfen /skip tuşunu kullanın.
+call_7: |-
+ Sıradaki sonraki parça indiriliyor.
+
+  Tutun lütfen...
+call_8: |-
+  <b>Aktif görüntülü sohbet bulunamadı.</b>
+
+  Lütfen grubunuzda/kanalınızda görüntülü sohbet başlatın ve tekrar deneyin.
+call_9: >-
+  <b>Asistan zaten görüntülü sohbette.</b>
+
+
+  Asistan görüntülü sohbette değilse lütfen <code>/reboot</code> gönderin ve tekrar oynatın.
+call_10: >-
+ <b>Telegram sunucusu hatası</b>
+
+
+  Telegram'da bazı dahili sorunlar yaşanıyor, lütfen tekrar oynatmayı deneyin veya grubunuzun görüntülü sohbetini yeniden başlatın.
+auth_1: Grubunuzda yalnızca 25 yetkili kullanıcıya sahip olabilirsiniz.
+auth_2: "{0} yetkili kullanıcı listesine eklendi"
+auth_3: "{0} zaten yetkili kullanıcılar listesinde yer alıyor."
+auth_4: "{0} yetkili kullanıcılar listesinden çıkarıldı."
+auth_5: "{0} yetkili kullanıcılar listesinde yok."
+auth_6: Yetkili kullanıcılar listesi alınıyor...
+auth_7: |+
+  {0} içindeki yetkili kullanıcıların listesi:
+
+auth_8: <b> Ekleyen :</b>
+reload_1: |-
+ Yönetici önbelleğini yalnızca 3 dakikada bir yenileyebilirsiniz.
+
+  Lütfen {0} tarihinden sonra deneyin.
+reload_2: Yönetici önbelleği başarıyla yenilendi.
+reload_3: Yönetici önbelleği yeniden yüklenemedi. Botun sohbetinizde yönetici olduğundan emin olun.
+reload_4: |-
+ Lütfen bekleyin...
+
+  {0} sohbetiniz için yeniden başlatılıyor.
+reload_5: |-
+ {0} sohbetiniz için başarıyla yeniden başlatıldı.
+
+  Tekrar oynatmaya başlayın...
+admin_1: Hatırladınız mı, yayını yeniden başlattığınızı?
+admin_2: "Yayın {0} tarafından duraklatıldı."
+admin_3: Hatırladınız mı, yayını duraklattığınızı?
+admin_4: "Yayın {0} tarafından başlatıldı."
+admin_5: "Akış {0} tarafından sonlandırıldı/durduruldu"
+admin_6: |-
+  Akış atlandı: {0}
+
+  <b>Başka sıraya alınmış parça yok</b> {1}, <b>Görüntülü sohbetten çıkılıyor.</b>
+admin_7: Yayın {0} olarak değiştirilirken hata oluştu.
+admin_8: Lütfen döngü oynatmayı <code>/loop disable</code> aracılığıyla devre dışı bırakın ve ardından şunu deneyin tekrar atla.
+admin_9: Lütfen atlamak için 1, 2, 4 gibi belirli sayıları kullanın...
+admin_10: |-
+ Belirli bir atlama için kuyrukta en az 2 parçanın olması gerekir.
+
+  Sırayı şu şekilde kontrol edin: /queue
+admin_11: |-
+ Belirli bir atlama için kuyrukta yeterli parça yok.
+
+  Lütfen 1 ile {0} arasında atlayın
+admin_12: |-
+ Belirli bir parçaya atlanamadı.
+
+  Sırayı şu şekilde kontrol edin: /queue
+admin_13: "Please reload admin cache via : /reload"
+admin_14: |-
+ Görüntülü sohbetleri yönetme izniniz yok.
+
+  Yönetici önbelleğini şu yolla yeniden yükle: /reload
+admin_15: |-
+ Karıştırılamadı.
+
+  Sırayı şu şekilde kontrol edin: /queue
+admin_16: |-
+ Sıra {0} tarafından karıştırıldı.
+
+  Sırayı şu şekilde kontrol edin: /queue
+admin_17: |-
+ <b>Örnek :</b>
+
+  /loop <code>enable</code>/<code>disable</code>
+  /loop <code>10</code>/<code>9</code>/<code>8</code>/<code>7</code>
+admin_18: "Döngü şu tarihe kadar <code>{0}</code> kez etkinleştirildi: {1}."
+admin_19: "Döngülü oynatma {0} tarafından devre dışı bırakıldı."
+admin_20: |-
+ <b>Örnek :</b>
+
+  /seek veya /seekback [saniye cinsinden süre]
+admin_21: Lütfen saniyeler içinde arama yapmak için sayısal rakamları kullanın.
+admin_22: Canlı yayınlar aranamaz!!!
+admin_23: |-
+ Daha düşük bir süre ile aramayı deneyin.
+
+  <b>{1}</b> dakikanın <b>{0}</b>'si oynandı.
+admin_24: |-
+ <b>Arıyorum...</b>
+
+  Tutun lütfen...
+admin_25: |-
+  » Akış başarıyla arandı.
+
+  <b>Süre :</b> {0} dakika
+  <b>Yazar:</b> {1}
+admin_26: Arama başarısız oldu.
+admin_27: Şu anda yalnızca youtube akışının hızı kontrol edilebiliyor.
+admin_28: >-
+  <b><u>{0} Hız kontrol paneli</b></u>
+
+
+  Görüntülü sohbette oynatılan akışın hızını değiştirmek için aşağıdaki düğmelere tıklayın.
+admin_29: Bot zaten normal hızda oynuyor.
+admin_30: |-
+  Lütfen bekleyin...
+
+  Başka biri akışın hızını değiştirmeye çalışıyor.
+admin_31: Hız değiştiriliyor...
+admin_32: |-
+  Devam eden akışın hızı değiştirilmeye çalışılıyor...
+
+  <b>İsteyen:</b> {0}
+admin_33: Devam eden akışın hızı değiştirilemedi.
+admin_34: |-
+  Devam eden akışın hızı {0}x olarak değiştirildi
+
+  <b>İsteyen:</b> {1}
+admin_35:  Oylamanın yapıldığı şarkının bitmesi nedeniyle oylama sona erdi
+  sağlandı.
+admin_36: Oylamanın hangi kanal için yapıldığı nedeniyle bu işlem gerçekleştirilemedi
+  sağlanan ya sonlandırılır ya da durdurulur.
+admin_37: Başarıyla <code>{0}</code> olumlu oyu alındı.
+admin_38: 1 olumlu oy eklendi.
+admin_39: 1 olumlu oy kaldırıldı.
+admin_40: Olumlu oy verildi.
+start_1: |-
+  {0} yaşıyor.
+
+  <b>Çalışma süresi:</b> {1}
+start_2: >-
+  {0} Seni gördüğüme sevindim
+
+  Ben {1}
+
+
+  Ben sesli sohbette hem müzik hem de video oynatmak için tasarlanmış bir botum.
+  Desteklediğim platformlar Youtube, Spotify, Resso, Apple Music ve SoundCloud'dur
+  Aşağıdaki yardım butonuna tıklayarak komutlarımı görebilirsiniz
+start_3: |-
+  Ben {1}
+
+  Beni {2}({3}) grubuna eklediğiniz için teşekkürler
+  Artık bu sohbette şarkı çalabilir.
+start_4: |-
+  <b>Süper gruba ihtiyaç var</b>
+
+  Lütfen <b>grubunuzu</b> <b>süper gruba</b> dönüştürün ve ardından beni tekrar ekleyin.
+
+  <b>Süper grup nasıl oluşturulur?</b>
+  - Grubunuzun sohbet geçmişini bir kez <b>görünür</b> yapın.
+start_5: >-
+  <b>Kara listeye alınmış sohbet</b>
+
+
+  Bu sohbet {0} veritabanında kara listeye alındı.
+
+  Bir <a href={1}>sudo kullanıcısından</a> sohbetinizin kara listeden çıkmasını isteyin veya <a href={2}>destek sohbetini</a> ziyaret edin.
+start_6: |-
+  <b>İzleme bilgileri</b>
+
+  <b>Başlık:</b> {0}
+
+  <b>Süre:</b> {1} dakika
+  <b>Görüntülemeler:</b> <code>{2}</code>
+  <b>Yayınlanma tarihi:</b> {3}
+  <b>Kanal :</b> <a href={4}>{5}</a>
+
+  <u><b>Arama {6} tarafaından yapılmaktadır</b></u>
+help_1: |-
+  Yardım almak istediğiniz kategoriyi seçin.
+  Şüphelerinizi <a href={0}>destek sohbetinde</a> sorabilirsiniz
+
+  Tüm komutlar :<code>/</code> ile birlikte kullanılabilir.
+help_2: Yardım menümü pm'inize almak için aşağıdaki düğmeye tıklayın.
+lang_1: "Lütfen bu grubun Varsayılanı olarak ayarlamak istediğiniz dili seçin
+   dil :"
+lang_2: Dil başarıyla değiştirildi.
+lang_3: Dil değiştirilemedi.
+lang_4: Zaten aynı dili kullanıyorsunuz.
+setting_1: |-
+  <u><b>{0}Ayarlar paneli</b></u>
+
+  <b>Sohbet kimliği :</b> <code>{1}</code>
+  <b>Sohbet adı :</b> {2}
+
+  Ayarları değiştirmek için aşağıdaki butonlara tıklayın.
+setting_2: |-
+  Doğrudan : Arama sorgularını doğrudan oynatır.
+
+  Satır İçi : Video ve ses arasında seçim yapmak için satır içi düğmeleri döndürür.
+setting_3: >-
+  Herkes : Herkes yönetici komutlarını kullanabilir [atla, duraklat, devam vb.]
+
+
+
+  Yalnızca yönetici : Yalnızca yöneticiler ve yetkili kullanıcılar yönetici komutlarını kullanabilir.
+setting_4: Yetkili kullanıcı bulunamadı..
+setting_5: |-
+  Grup : Komutun verildiği grupta müzik çalar.
+
+  Kanal : İstediğiniz kanaldaki müziği çalar. /channelplay yoluyla kanal kimliğini ayarlayın
+setting_6: |-
+  Herkes : Bu grupta bulunan herkes burada müzik çalabilir.
+
+  Yalnızca yönetici: Bu gruptaki müziği yalnızca yöneticiler çalabilir.
+setting_7: Lütfen kanal kimliğini /channelplay aracılığıyla tanımlayın.
+setting_8: Bu mod etkinleştirildiğinde yönetici haklarına sahip olmayan kişiler yöneticiyi kullanabilir
+  Belirli sayıda oydan sonra komutlar verilir.
+setting_9: "Yönetici komutlarını kullanmak için {0} adet olumlu oy gerekmektedir."
+setting_10: Oylama modu devre dışı.
+setting_11: En düşük olumlu oy sayısı 2 olabilir. 2'nin altına ayarlayamazsınız
+setting_12: En yüksek olumlu oy sayısı 15 olabilir. 15'in üzerine çıkamazsınız
+set_cb_1: Kimlik doğrulama kullanıcıları paneli alınıyor...
+set_cb_2: Oynatma modu paneli alınıyor...
+set_cb_3: Değişiklikler ayarlanıyor...
+set_cb_4: Yetkili kullanıcılar listesi getiriliyor...
+set_cb_5: Geri dönüyoruz...
+gstats_1: |-
+  {0} istatistik ve bilgi alınıyor...
+
+  Biraz zaman alabilir, lütfen bekleyin...
+gstats_2: "{0} istatistiklerini kontrol etmek için aşağıdaki düğmelere tıklayın."
+gstats_3: |-
+  <b><u>{0} İstatistikler ve bilgiler :</u></b>
+
+  <b>Asistanlar:</b> <code>{1}</code>
+  <b>Engellendi:</b> <code>{2}</code>
+  <b>Sohbetler:</b> <code>{3}</code>
+  <b>Kullanıcılar:</b> <code>{4}</code>
+  <b>Modüller:</b> <code>{5}</code>
+  <b>Sudo'cular:</b> <code>{6}</code>
+
+  <b>Otomatik ayrılma:</b> {7}
+  <b>Oynatma süres sınırı:</b> {8} dakika
+gstats_4: Bu düğme yalnızca sudo kullanıcıları içindir.
+gstats_5: |-
+  <b><u>{0} İstatistikler ve bilgiler :</u></b>
+
+  <b>Modüller :</b> <code>{1}</code>
+  <b>Platform :</b> <code>{2}</code>
+  <b>Ram :</b> <code>{3}</code>
+  <b>Fiziksel çekirdekler :</b> <code>{4}</code>
+  <b>Toplam çekirdekler :</b> <code>{5}</code>
+  <b>Cpu frekansı :</b> <code>{6}</code>
+
+  <b>Python :</b> <code>{7}</code>
+  <b>Pirogram :</b> <code>{8}</code>
+  <b>Py-TgÇağrıları :</b> <code>{9}</code>
+
+  <b>Mevcut depolama alanı:</b> <code>{10} GB</code>
+  <b>Kullanılan depolama alanı:</b> <code>{11} GB</code>
+  <b>Kalan depolama alanı:</b> <code>{12} GB</code>
+
+  <b>Sunulan sohbetler :</b> <code>{13}</code>
+  <b>Sunulan kullanıcılar:</b> <code>{14</code>
+  <b>Engellenen kullanıcılar:</b> <code>{15</code>
+  <b>Sudo kullanıcıları:</b> <code>{16</code>
+
+  <b>Toplam veritabanı boyutu :</b> <code>{17} ᴍʙ</code>
+  <b>Toplam veritabanı depolama alanı:</b> <code>{18} ᴍʙ</code>
+  <b>Toplam veri tabanı koleksiyonları :</b> <code>{19}</code>
+  <b>Toplam veri tabanı anahtarları:</b> <code>{20}</code>
+playcb_1: Ah, bu sana göre değil bebeğim.
+playcb_2: |-
+  Bir sonraki sonucu almak,
+
+  Lütfen bekleyin...
+cplay_1: >-
+  {0} kanalındaki kanallardan herhangi bir kanala veya sohbetinize müzik çalabilirsiniz
+  bağlantılı kanal
+
+
+  <b>Bağlantılı kanal için:</b>
+
+  <code>/channelplay bağlantılı</code>
+
+
+  <b>Başka herhangi bir kanal için:</b>
+
+  <code>/channelplay [Kanal kimliği]</code>
+cplay_2: Bu sohbetin bağlantılı kanalı yok.
+cplay_3: |-
+  Kanal {0} olarak tanımlandı.
+  Kanal kimliği : <code>{1}</code>
+cplay_4: |-
+  Kanal alınamadı.
+
+  Botu kanalınıza eklediğinizden ve yönetici olarak tanıttığınızdan emin olun.
+cplay_5: Yalnızca kanallar desteklenir.
+cplay_6: >-
+  Buna bağlanmak için {0} kanalının sahibi olmanız gerekir
+  grup.
+
+  <b>Kanalın sahibi :</b> @{1}
+
+
+  Alternatif olarak grubunuzu bu kanala bağlayabilir ve ardından <code>/channelplay linked</code> ile bağlanmayı deneyebilirsiniz.
+cplay_7: Kanal oynatma devre dışı bırakıldı.
+play_1: 🦭 
+play_2: |-
+  <b>Kanal oynatma modu</b>
+
+  İşleniyor .. Lütfen bekleyin...
+
+  <b>Bağlı kanal :</b> {0}
+play_3: Sorgu işlenemedi.
+play_4: |-
+  <b>Yalnızca yöneticiler oynar</b>
+  Yalnızca bu sohbetin yöneticilerinin oynamasına izin verilir
+
+  Oynatma modunu /playmode ile değiştirin
+play_5: |-
+  Ses dosyası işlenemedi.
+
+  Ses dosyası boyutu tanımlanan sınırdan daha büyük.
+play_6: "{0} süresinden uzun yayınların {1} üzerinde oynatılmasına izin verilmiyor"
+play_7: |-
+  Geçerli bir video dosyası uzantısı değil.
+
+  <b>Desteklenen uzantılar :</b> {0}
+play_8: Video dosyası boyutu 1 GB'tan az olmalıdır.
+play_9: |-
+  <b><u>Youtube oynatma listesi özelliği</b></u>
+
+  Youtube oynatma listesinin tamamını oynatmak istediğiniz modu seçin.
+play_10: |-
+  <b>Başlık :</b> {0}
+  <b>Süre :</b> {1} dakika
+play_11: |-
+  <u><b>{0} Spotify oynatıcı</b></u>
+
+  <b>İsteyen:</b> {1}
+play_12: |-
+  <u><b>{0}Apple oynatıcı</b></u>
+
+  <b>İsteyen:</b> {1}
+play_13: |-
+  Canlı yayın algılandı.
+
+  Bu canlı yayını oynatmak istediğinizden emin misiniz?
+play_14: |-
+  Parça ayrıntıları getirilemedi.
+
+  @XezerVideoBot ekleyerek parçayı oynatmayı deneyin.
+play_15: |-
+  Sorgu işlenemedi.
+
+  Yalnızca Spotify parçalarını, albümlerini, sanatçılarını ve çalma listelerini çalabiliyorum.
+play_16: |-
+  Sorgu işlenemedi.
+
+  Yalnızca Spotify parçalarını, albümlerini, sanatçılarını ve çalma listelerini çalabiliyorum.
+play_17: Lütfen görüntülü sohbeti açın, URL'leri aktaramıyorum.
+play_18: <b>Kullanım :</b> /play [şarkı adı/youtube URL'si/bir ses/video dosyasına yanıt]
+play_19: "Sıraya Alınmış Oynatma Listesi :"
+play_20: Sıraya Alınmış Konum-
+play_21: |-
+  {0} parça sıraya eklendi.
+
+  <b>Kontrol edin:</b> <a href={1}>Burayı tıklayın</a>
+play_22: "Grubunuzda sorguları oynatmak istediğiniz modu seçin: {0}"
+str_1: Lütfen m3u8 veya dizin bağlantıları sağlayın.
+str_2: |-
+  Geçerli akış doğrulandı.
+
+  İşleniyor...
+str_3: YouTube canlı yayın akışı başarısız oldu, canlı format bulunamadı.
+ping_1: "{0} Gecikmelidir."
+ping_2: |-
+  🏓 Pong: <code>{0}ms</code>
+
+  <b><u>{1} Sistem istatistikleri :</u></b>
+
+  Çalışma süresi: {2}
+  Ram : {3}
+  CPU : {4}
+  Disk: {5}
+  Py-TgCall'lar : <code>{6}ᴍs</code>
+queue_1: |-
+  Sıra alınıyor...
+
+  Lütfen bekleyin...
+queue_2: Sıra boş.
+queue_3: <u>» Sıraya alınmış parçaların listesini kontrol etmek için burayı tıklayın:</u> <a
+  href={0}>Burada</a>
+queue_4: |-
+  ➲ <b>#{0} Sırasına Eklendi
+
+  ‣ Başlık :</b> {1}
+  <b>‣ Süre :</b> {2} dakika
+  <b>‣ Talep eden:</b> {3}
+queue_5: |-
+  Çalma listesinde yalnızca bir sıralanmış parça var.
+
+  Kontrol listesine daha fazla parça ekleyin.
+queue_6: |-
+  <b>Süre :</b> bilinmeyen süreli akış
+
+  Sıraya alınmış listenin tamamını almak için aşağıdaki düğmeye tıklayın.
+queue_7: |-
+  
+  Sıraya alınmış listenin tamamını almak için aşağıdaki düğmeye tıklayın.
+queue_8: |-
+  <b>{0} Oyuncu</b>
+
+  <b>Akış:</b> {1}
+
+  <b>Akış türü :</b> {2}
+  <b>İsteyen:</b> {3}
+  {4}
+stream_1: |-
+  ➲ <b>Yayın Başlatıldı |</b>
+
+  <b>‣ Başlık :</b> <a href={0}>{1}</a>
+  <b>‣ Süre :</b> {2} dakika
+  <b>‣ Talep eden:</b> {3}
+stream_2: |-
+  ➲ <b>Akış başlatıldı |</b>
+
+  <b>‣ Yayın türü :</b> canlı yayın [url]
+  <b>‣ Talep eden:</b> {0}
+CLOSE_BUTTON: Kapat
+BACK_BUTTON: Geri
+S_B_1: Beni ekle
+S_B_2: Destek
+S_B_3: Beni grubunuza ekleyin
+S_B_4: Yardım ve Komutlar
+S_B_5: Geliştirici
+S_B_6: Kanal
+S_B_7: Dil 
+S_B_8: Youtube
+S_B_9: Destek
+H_B_1: Admin
+H_B_2: Yetki
+H_B_3: Yayınlanma
+H_B_4: BL- Sohbet 
+H_B_5: BL- Kullanıcı
+H_B_6: Kanal oynat
+H_B_7: Global ban
+H_B_8: Döngü
+H_B_9: Bakım
+H_B_10: Ping
+H_B_11: Oynatma
+H_B_12: Karıştırma
+H_B_13: ilerlemek
+H_B_14: Şarkı
+
+H_B_15: Hız
+P_B_1: Ses
+P_B_2: Video
+P_B_3: Canlı Yayın
+P_B_4: Normal
+ST_B_1: Yetki Kullanıcı
+ST_B_2: Oynatma modu
+ST_B_3: Dil 
+ST_B_4: Oylama Modu
+ST_B_5: "Açık"
+ST_B_6: "Kapalı"
+ST_B_7: Yetki Kullanıcılar
+ST_B_8: yöneticiler
+ST_B_9: Herkes
+ST_B_10: Arama modu
+ST_B_11: Direk
+ST_B_12: Inline
+ST_B_13: Yönetici Komutları
+ST_B_14: Oynatma Türü
+SA_B_1: Genel İstatistik
+SA_B_2: Genel
+SA_B_3: Kapsamlı
+QU_B_1: Sıra
+QU_B_2: " {0} —————————— {1}"
+sudo_1: "{0} zaten Sudo kullanıcıları listesinde."
+sudo_2: "{0}, sudo kullanıcı listesine eklendi."
+sudo_3: "{0}, sudo kullanıcıları listesinde değil."
+sudo_4: "{0}, sudo kullanıcı listesinden kaldırıldı."
+sudo_5: |
+  <u><b>Sahip :</b></u>
+sudo_6: |
+  
+  <u><b>Sudo Kullanıcıları :</b></u>
+sudo_7: Sudo kullanıcısı bulunamadı.
+sudo_8: Bşarısız.
+block_1: » {0} zaten bot tarafından engellendi.
+block_2: » Engellenen kullanıcılar listesine{0} eklendi.
+block_3: » {0} engellenen kullanıcılar listesinde değil.
+block_4: » {0}, engellenen kullanıcılar listesinden kaldırıldı.
+block_5: » Engellenen kullanıcı bulunamadı.
+block_6: » Engellenen kullanıcılar listesi alınıyor...
+block_7: |+
+  <b>😫 Engellenmiş kullanıcılar :</b>
+
+black_1: |-
+  <b>Örnek :</b>
+
+  /blacklistchat [Chat ID]
+black_2: » Bu sohbet zaten kara listede
+black_3: » Kara listedeki sohbete başarıyla eklendi.
+black_4: |-
+  <b>Örnek :</b>
+
+  /whitelistchat [Chat ID]
+black_5: » Bu sohbet kara listede değil.
+black_6: » Kara listedeki sohbetlerden başarıyla kaldırıldı.
+black_7: |+
+  » Kara listeye alınan sohbetlerin listesi:
+
+black_8: » Kara listeye alınmış sohbet yok {0}.
+black_9: » Bir şeyler ters gitti.
+maint_1: |-
+  <b>Örnek :</b>
+  /maintenance [Enable | Disable]
+maint_2: » {0} Bakım modu etkin.
+maint_3: » {0} Bakım modu Devredışı.
+maint_4: » Bakım modu zaten etkin.
+maint_5: » Bakım modu zaten devredışı.
+log_1: |-
+  <b>Örnek :</b>
+  /logger [Enable | Disable]
+log_2: Log kaydı aktif edildi
+log_3: Log kaydı devre dışı bırakıldı
+
+
+broad_1: » Yayın Başlatıldı...
+broad_2: |-
+  <b>Örnek :</b>
+
+  /broadcast [Mesaj gönderin veya mesaja yanıt verin]
+broad_3: » Mesaj, bottan {1} ping ile {0} sohbete yayınlandı.
+broad_4: » Mesaj {0} kullanıcıya yayınlandı.
+broad_5: » Asistan yayınını başlatılıyor...
+broad_6: |+
+  ➻ Asistan yayını:
+
+broad_7: ↬ Asistan {0}, {1} sohbette yayınlandı.
+broad_8: » Lütfen yayınlanacak bir metin sağlayın.
+server_1: » Günlükler alınamadı.
+server_2: Lütfen heroku API anahtarınızın ve uygulama adınızın yapılandırıldığından emin olun
+  doğru şekilde.
+server_3: Mevcut güncellemeler kontrol ediliyor...
+server_4: Git komut hatası.
+server_5: Geçersiz git deposu.
+server_6: » Bot günceldir.
+server_7: » Bot başarıyla güncellendi! şimdi bot gelene kadar birkaç dakika bekleyin
+  yeniden başlar ve değişiklikleri yükler!
+server_8: |-
+  {0} yeniden başlatılıyor...
+
+  15-20 saniye sonra tekrar oynatmaya başlayabilirsiniz.
+server_9: Bir şeyler ters gitti. Lütfen günlükleri kontrol edin.
+server_10: "Güncelleyicide <code>{0}</code> sorun oluştu"
+server_11: » Hız testi çalıştırıyorum...
+server_12: <b>⇆ İndirme hız testi çalıştırılıyor...</b>
+server_13: <b>⇆ Yükleme hız testi çalıştırılıyor...</b>
+server_14: <b>↻ Sonuçlar paylaşılıyor...</b>
+server_15: |-
+  ✯ <b>Hız testi sonuçları</b> ✯
+
+  <u><b>İstemci :</b></u>
+  <b>» IPS :</b> {0}
+  <b>» Ülke :</b> {1}
+
+  <u><b>Sunucu :</b></u>
+  <b>» İsim :</b> {2}
+  <b>» Ülke :</b> {3}, {4}
+  <b>» Sponsor :</b> {5}
+  <b>» Gecikme :</b> {6}
+  <b>» Ping :</b> {7}
+gban_1: » Neden kendini banlamak istedin bebe ?
+gban_2: » Neden kendime gban yapayım ki ?
+gban_3: » Benim sudoer'larımı yasaklayamazsın.
+gban_4: » {0} zaten küresel olarak bottan yasaklandı.
+gban_5: |-
+  » {0} üzerinde genel yasak başlatılıyor.
+
+  <b>Beklenen süre:</b> {1}
+gban_6: |-
+  <b><u>{0} için yeni küresel yasak :</u></b>
+
+  <b>Kökeni:</b> {1} [<code>{2}</code>]
+  <b>Kullanıcı:</b> {3}
+  <b>Kullanıcı kimliği :</b> {4}
+
+  <b>yasaklı:</b> {5}
+  <b>sohbetler:</b> </code>{6}</code>
+gban_7: » {0} bottan yasaklanmadı.
+gban_8: |-
+  » {0}'ın genel yasağı kaldırılıyor.
+
+  <b>Beklenen süre:</b> {1}
+gban_9: |-
+  » {0} kullanıcısının küresel yasağı kaldırıldı.
+
+  {1} sohbetteki yasağı kaldırıldı.
+gban_10: » Hiç kimse küresel olarak bottan yasaklanmamıştır.
+gban_11: » Yasaklanan kullanıcılar listesi alınıyor...
+gban_12: |+
+  🙂 <b>Global yasaklı kullanıcılar :</b>
+#-------------------------------------------------------
+users: |-
+  👨‍🎓 Kullanıcı Komutları
+
+  ‣ /play: Müzik çalar
+  ‣ /vplay: Videoyu oynatır
+  ‣ /start: Müzik botunu başlatır
+  ‣ /help: Komut açıklamalarını içeren yardım menüsü alın
+  ‣ /ping: Bot gecikmesini ve sistem istatistiklerini gösterir
+  ‣ /stats: Genel bot istatistiklerini gösterir
+admins: |-
+  🕵 Yönetici Komutları
+
+  ‣ /playmode: Kullanıcı deneyimini ayarlar
+  ‣ /pause: Geçici olarak duraklatır
+  ‣ /resume: Devam ettirme duraklatıldı
+  ‣ /skip: Sonraki müziğe atlar
+  ‣ /end veya /stop: Yaklaşan parçaları temizler ve mevcut oynatmayı durdurur
+  ‣ /queue: Listeyi gösterir
+  ‣ /auth [kullanıcı adı/kullanıcı_kimliği]
+  ‣ /unauth [kullanıcı adı/kullanıcı_kimliği]
+  ‣ /authusers: Grup için yedek kullanıcı listesini gösterir
+  ‣ /shuffle: Sırayı karıştırır
+  ‣ /queue: Karıştırılmış kuyruğu gösterir
+  
+sudos: |-
+  👮‍♂ Sahip komutları
+  
+  ‣ /logger [etkinleştir/devre dışı bırak]
+  ‣ /gban [kullanıcı adı veya cevap] : Gruplardan yasaklamalar
+  ‣ /ungban [kullanıcı adı veya yanıt] : Genel olarak yasağı kaldırır
+  ‣ /gbannedusers : Global olarak yasaklanmış kullanıcıları gösterir
+  ‣ /blacklistchat [sohbet kimliği] : Botun kullanıldığı sohbeti kaldırır
+  ‣ /whitelistchat [sohbet kimliği] : Daha önce kara listeye alınmış bir sohbete izin verir
+  ‣ /blacklistedchat : Kara listeye alınan sohbetleri gösterir
+
+H_B_K: Kullanıcı
+H_B_U: Yönetici
+H_B_S: Yardımcı

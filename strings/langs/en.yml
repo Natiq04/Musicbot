@@ -1,0 +1,701 @@
+name: 🇺🇸 English
+general_1: Reply to a user's message or give username/user id.
+general_2: |-
+  Something went wrong while processing your query.
+
+  Exception : <code>{0}</code>
+general_3: You're an anonymous admin in this chat, revert back to user account
+  for using me.
+general_4: |-
+  You don't have permissions to manage video chats.
+
+  Reload admin cache via /reload
+general_5: » Bot isn't streaming on videochat.
+tg_1: |-
+  <u><b>{0} downloader</b></u>
+
+  <b>File size :</b> {1}
+  <b>Completed :</b> {2}
+  <b>Percentage :</b> {3}%
+
+  <b>Speed :</b> {4}/s
+  <b>Eta :</b> {5}
+tg_2: |-
+  Successfully downloaded, processing file...
+
+  <b>Time elapsed :</b> {0}
+tg_3: Failed to download media from telegram, please try again...
+tg_4: Download already completed.
+tg_5: Download already completed or cancelled.
+tg_6: Download cancelled.
+tg_7: "Download cancelled by : {0}"
+tg_8: Failed to stop the download.
+tg_9: Failed to get the ongoing download task...
+call_1: bot requires <b>invite users via link</b> permission to invite assistant
+  to your chat.
+call_2: |-
+  <u>{0} Assistant is banned in your group/channel.</u>
+
+  <b>ID :</b> <code>{1}</code>
+  <b>Name :</b> {2}
+  <b>Username :</b> @{3}
+
+  Please unban the assistant and try again.
+call_3: |-
+  Failed to invite {0} assistant to your chat.
+
+  Reason : <code>{1}</code>
+call_4: |-
+  Please wait...
+
+  Inviting {0} assistant to your chat...
+call_5: |-
+  {0} Assistant joined successfully.
+
+  Trying to start stream...
+call_6: Failed to switch stream, please use /skip to change the track again.
+call_7: |-
+  Downloading next track from queue.
+
+  Please hold on...
+call_8: |-
+  <b>No active videochat found.</b>
+
+  Please start videochat in your group/channel and try again.
+call_9: >-
+  <b>Assistant already in videochat.</b>
+
+
+  If assistant is not in videochat, please send <code>/reboot</code> and play again.
+call_10: >-
+  <b>Telegram server error</b>
+
+
+  Telegram is having some internal problems, please try playing again or restart the videochat of your group.
+auth_1: You can only have 25 authorized users in your group.
+auth_2: Added {0} to authorized users list.
+auth_3: "{0} is already in authorized users list."
+auth_4: Removed {0} from authorized users list.
+auth_5: "{0} is not in authorized users list."
+auth_6: Fetching authorized users list...
+auth_7: |+
+  List of authorized users in {0} :
+
+auth_8: <b> Added by :</b>
+reload_1: |-
+  You can only refresh admin cache once in 3 minutes.
+
+  Please try after {0}.
+reload_2: Admin cache refreshed successfully.
+reload_3: Failed to reload admin cache, make sure that the bot is admin in your chat.
+reload_4: |-
+  Please wait...
+
+  Rebooting {0} for your chat.
+reload_5: |-
+  Successfully rebooted {0} for your chat.
+
+  Start playing again...
+admin_1: Did you remember that you've resumed the stream ?
+admin_2: "Stream paused by : {0}"
+admin_3: Did you remember that you've paused the stream ?
+admin_4: "Stream resumed by : {0}"
+admin_5: "Stream ended/stopped : {0}"
+admin_6: |-
+  Stream skipped : {0}
+
+  <b>No more queued tracks in</b> {1}, <b>Leaving videochat.</b>
+admin_7: Error while changing stream to {0}.
+admin_8: Please disable loop play via <code>/loop disable</code> and then try to
+  skip again.
+admin_9: Please use specific numbers for skip, like 1, 2, 4...
+admin_10: |-
+  Atleast 2 tracks needed in queue for specific skip.
+
+  Check the queue by : /queue
+admin_11: |-
+  Not enough tracks in queue for specific skip.
+
+  Please skip between 1 and {0}
+admin_12: |-
+  Failed to skip to specific track.
+
+  Check the queue by : /queue
+admin_13: "Please reload admin cache via : /reload"
+admin_14: |-
+  You don't have permissions to manage video chats.
+
+  Reload admin cache via : /reload
+admin_15: |-
+  Failed to shuffle.
+
+  Check the queue by : /queue
+admin_16: |-
+  Queue shuffled by {0}.
+
+  Check the queue by : /queue
+admin_17: |-
+  <b>Example :</b>
+
+  /loop <code>enable</code>/<code>disable</code>
+  /loop <code>10</code>/<code>9</code>/<code>8</code>/<code>7</code>
+admin_18: "Loop enabled for <code>{0}</code> times by : {1}."
+admin_19: "Loop play has been disabled by : {0}."
+admin_20: |-
+  <b>Example :</b>
+
+  /seek or /seekback [duration in seconds]
+admin_21: Please use numeric digits for seeking in seconds.
+admin_22: Live streams can't be seeked.
+admin_23: |-
+  Try seeking with a lower duration.
+
+  Played <b>{0}</b> out of <b>{1}</b> minutes.
+admin_24: |-
+  <b>Seeking...</b>
+
+  Please hold on...
+admin_25: |-
+  » Stream successfully seeked.
+
+  <b>Duration :</b> {0} minutes
+  <b>By :</b> {1}
+admin_26: Failed to seek.
+admin_27: Only youtube stream's speed can be controlled currently.
+admin_28: >-
+  <b><u>{0} Speed control panel</b></u>
+
+
+  Click on the buttons below to change the speed of currently playing stream on videochat.
+admin_29: Bot is already playing on normal speed.
+admin_30: |-
+  Please wait...
+
+  Someone else is trying to change the speed of the stream.
+admin_31: Changing speed...
+admin_32: |-
+  Trying to change the speed of the ongoing stream...
+
+  <b>Requested by :</b> {0}
+admin_33: Failed to change the speed of the ongoing stream.
+admin_34: |-
+  Changed the speed of the ongoing stream to {0}x
+
+  <b>Requested by :</b> {1}
+admin_35: The voting has ended because the track has ended for which the voting
+  was provided.
+admin_36: Failed to perform this action because for which track the voting was
+  provided is either ended or stopped.
+admin_37: Successfully got <code>{0}</code> upvotes.
+admin_38: Added 1 upvote.
+admin_39: Removed 1 upvote.
+admin_40: Upvoted.
+start_1: |-
+  {0} is alive.
+
+  <b>Uptime :</b> {1}
+start_2: >-
+  {0} Nice to see you
+
+  I am {1}
+
+
+  I am a bot designed to play both music and video in voice chat.
+  My supported platforms are Youtube, Spotify, Resso, Apple Music and SoundCloud
+  You can see my commands by clicking the help button below
+start_3: |-
+  Hey {0},
+  I am {1}
+
+  Thanks for adding me in {2}({3})
+  Can now play songs in this chat.
+start_4: |-
+  <b>Supergroup needed</b>
+
+  Please convert your <b>group</b> to <b>supergroup</b> and then add me again.
+
+  <b>How to make supergroup ?</b>
+  - Make your group's chat history <b>visible</b>  once.
+start_5: >-
+  <b>Blacklisted chat</b>
+
+
+  This chat is blacklisted on {0} database.
+
+  Request a<a href={1}>sudo user</a> to unblacklist your chat or visit <a href={2}>support chat.</a>
+start_6: |-
+  <b>Track information</b>
+
+  <b>Title :</b> {0}
+
+  <b>Duration :</b> {1} minutes
+  <b>Views :</b> <code>{2}</code>
+  <b>Published on :</b> {3}
+  <b>Channel :</b> <a href={4}>{5}</a>
+
+  <u><b>Search powered by {6}</b></u>
+help_1: |-
+  Choose the category for which you wanna get help.
+  Ask your doubts at<a href={0}>support chat</a>
+
+  All commands can be used with :<code>/</code>
+help_2: Click on the button below to get my help menu in your pm.
+lang_1: "Please choose the language which you wanna set as this group's Default
+  language :"
+lang_2: Language changed successfully.
+lang_3: Failed to change language.
+lang_4: You're already on the same language.
+setting_1: |-
+  <u><b>{0} Settings panel</b></u>
+
+  <b>Chat id :</b> <code>{1}</code>
+  <b>Chat title :</b> {2}
+
+  Click on the buttons below for changing settings.
+setting_2: |-
+  Direct : Plays search queries directly.
+
+  Inline : Returns inline buttons for choosing between video & audio.
+setting_3: >-
+  Everyone : Anyone can use admin commands [skip, pause, resume etc.]
+  present in this group.
+
+
+  Admin only : Only admins and authorized users can use admin commands.
+setting_4: No authorized users found.
+setting_5: |-
+  Group : Plays music in the group where the command is given.
+
+  Channel : plays music in the channel you want. set channel id via /channelplay
+setting_6: |-
+  Everyone : anyone present in this group can play music here.
+
+  Admin only: only admins can play the music in this group.
+setting_7: Please define channel id via /channelplay
+setting_8: When this mode is enabled, people without admin rights can use admin
+  commands after a certain amount of votes.
+setting_9: "Current upvotes required for using admin commands are : {0}"
+setting_10: Voting mode is disabled.
+setting_11: Lowest upvotes count can be 2. you can't set below 2
+setting_12: Highest upvotes count can be 15. you can't set above 15
+set_cb_1: Getting auth users panel...
+set_cb_2: Getting play mode panel...
+set_cb_3: Setting up changes...
+set_cb_4: Fetching authorized users list...
+set_cb_5: Getting back...
+gstats_1: |-
+  Getting {0} stats and information...
+
+  It may take a while, please hold on...
+gstats_2: Click on the buttons below to check the stats of {0}.
+gstats_3: |-
+  <b><u>{0} Stats and information :</u></b>
+
+  <b>Assistants :</b> <code>{1}</code>
+  <b>Blocked :</b> <code>{2}</code>
+  <b>Chats :</b> <code>{3}</code>
+  <b>Users :</b> <code>{4}</code>
+  <b>Modules :</b> <code>{5}</code>
+  <b>Sudoers :</b> <code>{6}</code>
+
+  <b>Auto leaving assistant :</b> {7}
+  <b>Play duration limit :</b> {8} minutes
+gstats_4: This button is only for sudoers.
+gstats_5: |-
+  <b><u>{0} Stats and information :</u></b>
+
+  <b>Modules :</b> <code>{1}</code>
+  <b>Platform :</b> <code>{2}</code>
+  <b>Ram :</b> <code>{3}</code>
+  <b>Physical cores :</b> <code>{4}</code>
+  <b>Total cores :</b> <code>{5}</code>
+  <b>Cpu frequency :</b> <code>{6}</code>
+
+  <b>Python :</b> <code>{7}</code>
+  <b>Pyrogram :</b> <code>{8}</code>
+  <b>Py-TgCalls :</b> <code>{9}</code>
+
+  <b>Storage available :</b> <code>{10} GB</code>
+  <b>Storage used :</b> <code>{11} GB</code>
+  <b>Storage left :</b> <code>{12} GB</code>
+
+  <b>Served chats :</b> <code>{13}</code>
+  <b>Served users :</b> <code>{14}</code>
+  <b>Blocked users :</b> <code>{15}</code>
+  <b>Sudo users :</b> <code>{16}</code>
+
+  <b>Total db size :</b> <code>{17} ᴍʙ</code>
+  <b>Total db storage :</b> <code>{18} ᴍʙ</code>
+  <b>Total db collections :</b> <code>{19}</code>
+  <b>Total db keys:</b> <code>{20}</code>
+playcb_1: Aww, this is not for you baby.
+playcb_2: |-
+  Getting next result,
+
+  Please wait...
+cplay_1: >-
+  You can play music in channels from {0} to any channel or your chat's
+  linked channel.
+
+
+  <b>For linked channel :</b>
+
+  <code>/channelplay linked</code>
+
+
+  <b>For any other channel :</b>
+
+  <code>/channelplay [Channel id]</code>
+cplay_2: This chat don't have any linked channel.
+cplay_3: |-
+  Channel defined to {0}.
+  Channel id : <code>{1}</code>
+cplay_4: |-
+  Failed to get channel.
+
+  Make sure you've added the bot in your channel and promoted as admin.
+cplay_5: Only channels are supported.
+cplay_6: >-
+  You need to be the owner of the channel {0} to connect it with this
+  group.
+
+  <b>Channel's owner :</b> @{1}
+
+
+  Alternatively you can link your group to that channel and then try connnecting with <code>/channelplay linked</code>
+cplay_7: Channel play disabled.
+play_1: 🦭 
+play_2: |-
+  <b>Channel play mode</b>
+
+  Processing, please wait...
+
+  <b>Linked channel :</b> {0}
+play_3: Failed to process query.
+play_4: |-
+  <b>Admins only play</b>
+  Only admins of this chat are allowed to play
+
+  Change play mode via /playmode
+play_5: |-
+  Failed to process audio file.
+
+  Audio file size is larger than the defined limit.
+play_6: Stream's longer than {0} aren't allowed to play on {1}
+play_7: |-
+  Not a valid video file extension.
+
+  <b>Supported extensions :</b> {0}
+play_8: Video file size should be less than 1GB.
+play_9: |-
+  <b><u>Youtube playlist feature</b></u>
+
+  Select the mode in which you want to play whole youtube playlist.
+play_10: |-
+  <b>Title :</b> {0}
+  <b>Duration :</b> {1} minutes
+play_11: |-
+  <u><b>{0} Spotify player</b></u>
+
+  <b>Requested by :</b> {1}
+play_12: |-
+  <u><b>{0} Apple player</b></u>
+
+  <b>Requested by :</b> {1}
+play_13: |-
+  Live stream detected.
+
+  Are you sure that you wanna play this live stream?
+play_14: |-
+  Failed to fetch track details.
+
+  Try playing the track by adding @XezerVideoBot.
+play_15: |-
+  Failed to process query.
+
+  I can only play spotify tracks, albums, artists and playlists.
+play_16: |-
+  No active voice chat.
+
+  To use force ᴩlay, there must be an active voicechat.
+play_17: Please turn on videochat, i'm unable to stream urls.
+play_18: <b>Usage :</b> /play [song name/youtube url/reply to a audio/video file]
+play_19: "Queued Playlist :"
+play_20: Queued Position-
+play_21: |-
+  Added {0} tracks to queue.
+
+  <b>Check :</b> <a href={1}>Click here</a>
+play_22: "Select the mode in which you want to play the queries inside your group : {0}"
+str_1: Please provide m3u8 or index links.
+str_2: |-
+  Valid stream verified.
+
+  Processing...
+str_3: Failed to stream youtube live stream, no live format found.
+ping_1: "{0} Is pinging..."
+ping_2: |-
+  🏓 Pong : <code>{0}ms</code>
+
+  <b><u>{1} System stats :</u></b>
+
+  Uptime : {2}
+  Ram : {3}
+  CPU : {4}
+  Disk : {5}
+  Py-TgCalls : <code>{6}ᴍs</code>
+queue_1: |-
+  Fetching queue...
+
+  Please wait...
+queue_2: Queue empty.
+queue_3: <u>» Click here to check the list of the queued tracks :</u> <a
+  href={0}>Here</a>
+queue_4: |-
+  ➲ <b>Added To Queue At #{0}
+
+  ‣ Title :</b> {1}
+  <b>‣ Duration :</b> {2} minutes
+  <b>‣ Requested by :</b> {3}
+queue_5: |-
+  There's only one queued track in playlist.
+
+  Add more tracks to check list.
+queue_6: |-
+  <b>Duration :</b> unknown duration stream
+
+  Click on button below to get whole queued list.
+queue_7: |-
+  
+  click on button below to get whole queued list.
+queue_8: |-
+  <b>{0} Player</b>
+
+  <b>Streaming :</b> {1}
+
+  <b>Stream type :</b> {2}
+  <b>Requested by :</b> {3}
+  {4}
+stream_1: |-
+  ➲ <b>Started Streaming |</b>
+
+  <b>‣ Title :</b> <a href={0}>{1}</a>
+  <b>‣ Duration :</b> {2} minutes
+  <b>‣ Requested by :</b> {3}
+stream_2: |-
+  ➲ <b>Started streaming |</b>
+
+  <b>‣ Stream type :</b> live stream [url]
+  <b>‣ Requested by :</b> {0}
+CLOSE_BUTTON: Close
+BACK_BUTTON: Back
+S_B_1: Add me
+S_B_2: Support
+S_B_3: Add me in your group
+S_B_4: Help & Commands
+S_B_5: Developer
+S_B_6: Channel
+S_B_7: Language
+S_B_8: Youtube
+S_B_9: Support
+H_B_1: Admin
+H_B_2: Aᴜᴛʜ
+H_B_3: Bʀᴏᴀᴅᴄᴀsᴛ
+H_B_4: Bʟ-Cʜᴀᴛ
+H_B_5: Bʟ-Usᴇʀ
+H_B_6: C-Pʟᴀʏ
+H_B_7: G-Bᴀɴ
+H_B_8: Lᴏᴏᴘ
+H_B_9: Mᴀɪɴᴛᴇɴᴀɴᴄᴇ
+H_B_10: Pɪɴɢ
+H_B_11: Pʟᴀʏ
+H_B_12: Sʜᴜғғʟᴇ
+H_B_13: Sᴇᴇᴋ
+H_B_14: Sᴏɴɢ
+H_B_15: Sᴘᴇᴇᴅ
+P_B_1: Audio
+P_B_2: Video
+P_B_3: Live stream
+P_B_4: Normal
+ST_B_1: Auth users
+ST_B_2: Play mode
+ST_B_3: Language
+ST_B_4: Voting mode
+ST_B_5: "On"
+ST_B_6: "Off"
+ST_B_7: Auth users
+ST_B_8: Admins
+ST_B_9: Everyone
+ST_B_10: Search mode
+ST_B_11: Direct
+ST_B_12: Inline
+ST_B_13: Admin cmds
+ST_B_14: Play type
+SA_B_1: Overall stats
+SA_B_2: General
+SA_B_3: Overall
+QU_B_1: Queue
+QU_B_2: " {0} —————————— {1}"
+sudo_1: "{0} is already in sudo users list."
+sudo_2: "Added {0} to sudo users list."
+sudo_3: "{0} is not in sudo users list."
+sudo_4: "Removed {0} from sudo users list."
+sudo_5: |
+  <u><b>Owner :</b></u>
+sudo_6: |
+  
+  <u><b>Sudo users :</b></u>
+sudo_7: No sudo users found.
+sudo_8: Failed.
+block_1: » {0} ɪs ᴀʟʀᴇᴀᴅʏ ʙʟᴏᴄᴋᴇᴅ ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ.
+block_2: » ᴀᴅᴅᴇᴅ {0} ᴛᴏ ʙʟᴏᴄᴋᴇᴅ ᴜsᴇʀs ʟɪsᴛ.
+block_3: » {0} ɪs ɴᴏᴛ ɪɴ ʙʟᴏᴄᴋᴇᴅ ᴜsᴇʀs ʟɪsᴛ.
+block_4: » ʀᴇᴍᴏᴠᴇᴅ {0} ғʀᴏᴍ ʙʟᴏᴄᴋᴇᴅ ᴜsᴇʀs ʟɪsᴛ.
+block_5: » ɴᴏ ʙʟᴏᴄᴋᴇᴅ ᴜsᴇʀs ғᴏᴜɴᴅ.
+block_6: » ɢᴇᴛᴛɪɴɢ ʙʟᴏᴄᴋᴇᴅ ᴜsᴇʀs ʟɪsᴛ...
+block_7: |+
+  <b>😫 ʙʟᴏᴄᴋᴇᴅ ᴜsᴇʀs :</b>
+
+black_1: |-
+  <b>ᴇxᴀᴍᴘʟᴇ :</b>
+
+  /blacklistchat [ᴄʜᴀᴛ ɪᴅ]
+black_2: » ᴛʜɪs ᴄʜᴀᴛ ɪs ᴀʟʀᴇᴀᴅʏ ʙʟᴀᴄᴋʟɪsᴛᴇᴅ.
+black_3: » sᴜᴄᴄᴇssғᴜʟʟʏ ᴀᴅᴅᴇᴅ ᴛᴏ ʙʟᴀᴄᴋʟɪsᴛᴇᴅ ᴄʜᴀᴛs.
+black_4: |-
+  <b>ᴇxᴀᴍᴘʟᴇ :</b>
+
+  /whitelistchat [ᴄʜᴀᴛ ɪᴅ]
+black_5: » ᴛʜɪs ᴄʜᴀᴛ ɪs ɴᴏᴛ ʙʟᴀᴄᴋʟɪsᴛᴇᴅ.
+black_6: » sᴜᴄᴄᴇssғᴜʟʟʏ ʀᴇᴍᴏᴠᴇᴅ ғʀᴏᴍ ʙʟᴀᴄᴋʟɪsᴛᴇᴅ ᴄʜᴀᴛs.
+black_7: |+
+  » ʟɪsᴛ ᴏғ ʙʟᴀᴄᴋʟɪsᴛᴇᴅ ᴄʜᴀᴛs :
+
+black_8: » ɴᴏ ʙʟᴀᴄᴋʟɪsᴛᴇᴅ ᴄʜᴀᴛs ᴏɴ {0}.
+black_9: » sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ.
+maint_1: |-
+  <b>ᴇxᴀᴍᴘʟᴇ :</b>
+  /maintenance [ᴇɴᴀʙʟᴇ | ᴅɪsᴀʙʟᴇ]
+maint_2: » {0} ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ ᴍᴏᴅᴇ ᴇɴᴀʙʟᴇᴅ.
+maint_3: » {0} ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ ᴍᴏᴅᴇ ᴅɪsᴀʙʟᴇᴅ.
+maint_4: » ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ ᴍᴏᴅᴇ ɪs ᴀʟʀᴇᴀᴅʏ ᴇɴᴀʙʟᴇᴅ.
+maint_5: » ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ ᴍᴏᴅᴇ ɪs ᴀʟʀᴇᴀᴅʏ ᴅɪsᴀʙʟᴇᴅ.
+log_1: |-
+  <b>ᴇxᴀᴍᴘʟᴇ :</b>
+  /logger [ᴇɴᴀʙʟᴇ | ᴅɪsᴀʙʟᴇ]
+log_2: ᴇɴᴀʙʟᴇᴅ ʟᴏɢɢɪɴɢ.
+log_3: ᴅɪsᴀʙʟᴇᴅ ʟᴏɢɢɪɴɢ.
+broad_1: » sᴛᴀʀᴛᴇᴅ ʙʀᴏᴀᴅᴄᴀsᴛɪɴɢ...
+broad_2: |-
+  <b>ᴇxᴀᴍᴘʟᴇ :</b>
+
+  /broadcast [ᴍᴇssᴀɢᴇ ᴏʀ ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ]
+broad_3: » ʙʀᴏᴀᴅᴄᴀsᴛᴇᴅ ᴍᴇssᴀɢᴇ ᴛᴏ {0} ᴄʜᴀᴛs ᴡɪᴛʜ {1} ᴘɪɴs ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ.
+broad_4: » ʙʀᴏᴀᴅᴄᴀsᴛᴇᴅ ᴍᴇssᴀɢᴇ ᴛᴏ {0} ᴜsᴇʀs.
+broad_5: » sᴛᴀʀᴛɪɴɢ ᴀssɪsᴛᴀɴᴛ ʙʀᴏᴀᴅᴄᴀsᴛ...
+broad_6: |+
+  ➻ ᴀssɪsᴛᴀɴᴛ ʙʀᴏᴀᴅᴄᴀsᴛ :
+
+broad_7: ↬ ᴀssɪsᴛᴀɴᴛ {0} ʙʀᴏᴀᴅᴄᴀsᴛᴇᴅ ɪɴ {1} ᴄʜᴀᴛs.
+broad_8: » ᴘʟᴇᴀsᴇ ᴘʀᴏᴠɪᴅᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ ʙʀᴏᴀᴅᴄᴀsᴛ.
+server_1: » ғᴀɪʟᴇᴅ ᴛᴏ ɢᴇᴛ ʟᴏɢs.
+server_2: ᴘʟᴇᴀsᴇ ᴍᴀᴋᴇ sᴜʀᴇ ᴛʜᴀᴛ ʏᴏᴜʀ ʜᴇʀᴏᴋᴜ ᴀᴘɪ ᴋᴇʏ ᴀɴᴅ ᴀᴘᴘ ɴᴀᴍᴇ ᴀʀᴇ ᴄᴏɴғɪɢᴜʀᴇᴅ
+  ᴄᴏʀʀᴇᴄᴛʟʏ.
+server_3: ᴄʜᴇᴄᴋɪɴɢ ꜰᴏʀ ᴀᴠᴀɪʟᴀʙʟᴇ ᴜᴘᴅᴀᴛᴇs...
+server_4: ɢɪᴛ ᴄᴏᴍᴍᴀɴᴅ ᴇʀʀᴏʀ.
+server_5: ɪɴᴠᴀʟɪᴅ ɢɪᴛ ʀᴇᴘsɪᴛᴏʀʏ.
+server_6: » ʙᴏᴛ ɪs ᴜᴘ-ᴛᴏ-ᴅᴀᴛᴇ.
+server_7: » ʙᴏᴛ ᴜᴩᴅᴀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ! ɴᴏᴡ ᴡᴀɪᴛ ғᴏʀ ғᴇᴡ ᴍɪɴᴜᴛᴇs ᴜɴᴛɪʟ ᴛʜᴇ ʙᴏᴛ
+  ʀᴇsᴛᴀʀᴛs ᴀɴᴅ ᴩᴜsʜ ᴄʜᴀɴɢᴇs !
+server_8: |-
+  {0} ɪs ʀᴇsᴛᴀʀᴛɪɴɢ...
+
+  ʏᴏᴜ ᴄᴀɴ sᴛᴀʀᴛ ᴩʟᴀʏɪɴɢ ᴀɢᴀɪɴ ᴀғᴛᴇʀ 15-20 sᴇᴄᴏɴᴅs.
+server_9: sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ, ᴩʟᴇᴀsᴇ ᴄʜᴇᴄᴋ ʟᴏɢs.
+server_10: "ᴀɴ ᴇxᴄᴇᴩᴛɪᴏɴ ᴏᴄᴄᴜʀᴇᴅ ᴀᴛ #ᴜᴩᴅᴀᴛᴇʀ ᴅᴜᴇ ᴛᴏ : <code>{0}</code>"
+server_11: » ʀᴜɴɴɪɴɢ ᴀ sᴘᴇᴇᴅᴛᴇsᴛ...
+server_12: <b>⇆ ʀᴜɴɴɪɴɢ ᴅᴏᴡɴʟᴏᴀᴅ sᴩᴇᴇᴅᴛᴇsᴛ...</b>
+server_13: <b>⇆ ʀᴜɴɴɪɴɢ ᴜᴩʟᴏᴀᴅ sᴩᴇᴇᴅᴛᴇsᴛ...</b>
+server_14: <b>↻ sʜᴀʀɪɴɢ sᴩᴇᴇᴅᴛᴇsᴛ ʀᴇsᴜʟᴛs...</b>
+server_15: |-
+  ✯ <b>sᴩᴇᴇᴅᴛᴇsᴛ ʀᴇsᴜʟᴛs</b> ✯
+
+  <u><b>ᴄʟɪᴇɴᴛ :</b></u>
+  <b>» ɪsᴩ :</b> {0}
+  <b>» ᴄᴏᴜɴᴛʀʏ :</b> {1}
+
+  <u><b>sᴇʀᴠᴇʀ :</b></u>
+  <b>» ɴᴀᴍᴇ :</b> {2}
+  <b>» ᴄᴏᴜɴᴛʀʏ :</b> {3}, {4}
+  <b>» sᴩᴏɴsᴏʀ :</b> {5}
+  <b>» ʟᴀᴛᴇɴᴄʏ :</b> {6}
+  <b>» ᴩɪɴɢ :</b> {7}
+gban_1: » ᴡʜʏ ᴅɪᴅ ʏᴏᴜ ᴡᴀɴɴᴀ ɢʙᴀɴ ʏᴏᴜʀsᴇʟғ ʙᴀʙʏ ?
+gban_2: » ᴡʜʏ sʜᴏᴜʟᴅ ɪ ɢʙᴀɴ ᴍʏsᴇʟғ ?
+gban_3: » ʏᴏᴜ ᴄᴀɴ'ᴛ ɢʙᴀɴ ᴍʏ sᴜᴅᴏᴇʀs.
+gban_4: » {0} ɪs ᴀʟʀᴇᴀᴅʏ ɢʟᴏʙᴀʟʟʏ ʙᴀɴɴᴇᴅ ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ.
+gban_5: |-
+  » ɪɴɪᴛɪᴀʟɪᴢɪɴɢ ɢʟᴏʙᴀʟ ʙᴀɴ ᴏɴ {0}.
+
+  <b>ᴛɪᴍᴇ ᴇxᴘᴇᴄᴛᴇᴅ :</b> {1}
+gban_6: |-
+  <b><u>ɴᴇᴡ ɢʟᴏʙᴀʟ ʙᴀɴ ᴏɴ {0} :</u></b>
+
+  <b>ᴏʀɪɢɪɴᴀᴛᴇᴅ ғʀᴏᴍ :</b> {1} [<code>{2}</code>]
+  <b>ᴜsᴇʀ :</b> {3}
+  <b>ᴜsᴇʀ ɪᴅ :</b> {4}
+
+  <b>ʙᴀɴɴᴇᴅ ʙʏ :</b> {5}
+  <b>ᴄʜᴀᴛs :</b> </code>{6}</code>
+gban_7: » {0} ɪs ɴᴏᴛ ɢʙᴀɴɴᴇᴅ ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ.
+gban_8: |-
+  » ʟɪғᴛɪɴɢ ɢʟᴏʙᴀʟ ʙᴀɴ ғʀᴏᴍ {0}.
+
+  <b>ᴇxᴘᴇᴄᴛᴇᴅ ᴛɪᴍᴇ :</b> {1}
+gban_9: |-
+  » ʟɪғᴛᴇᴅ ɢʟᴏʙᴀʟ ʙᴀɴ ғʀᴏᴍ {0}.
+
+  ᴜɴʙᴀɴɴᴇᴅ ɪɴ {1} ᴄʜᴀᴛs.
+gban_10: » ɴᴏ ᴏɴᴇ ɪs ɢʟᴏʙᴀʟʟʏ ʙᴀɴɴᴇᴅ ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ.
+gban_11: » ғᴇᴛᴄʜɪɴɢ ɢʙᴀɴɴᴇᴅ ᴜsᴇʀs ʟɪsᴛ...
+gban_12: |+
+  🙂 <b>ɢʟᴏʙᴀʟʟʏ ʙᴀɴɴᴇᴅ ᴜsᴇʀs :</b>
+#-------------------------------------------------------
+users: |-
+  👨‍🎓 User Commands
+
+  ‣ /play: Plays music
+  ‣ /vplay: Plays video
+  ‣ /start: Starts the music bot
+  ‣ /help: Get help menu with command explanations
+  ‣ /ping: Shows bot latency and system stats
+  ‣ /stats: Shows general bot statistics
+admins: |-
+  🕵 Admin Commands
+
+  ‣ /playmode: Adjusts user experience
+  ‣ /pause: Temporarily pauses
+  ‣ /resume: Resumes paused
+  ‣ /skip: Skips to the next music
+  ‣ /end or /stop: Clears upcoming tracks and stops the current playback
+  ‣ /queue: Shows the list
+  ‣ /auth [username/user_ID]
+  ‣ /unauth [username/user_ID]
+  ‣ /authusers: Shows backup users list for the group
+  ‣ /shuffle: Shuffles the queue
+  ‣ /queue: Shows the shuffled queue
+  
+sudos: |-
+  👮‍♂ Owner commands
+  
+  ‣ /logger [enable/disable]
+  ‣ /gban [username or reply] : Bans from groups
+  ‣ /ungban [username or reply] : Unbans globally
+  ‣ /gbannedusers : Shows globally banned users
+  ‣ /blacklistchat [chat ID] : Removes a chat from using the bot
+  ‣ /whitelistchat [chat ID] : Allows a previously blacklisted chat
+  ‣ /blacklistedchat : Shows chats blacklisted
+
+H_B_K: User
+H_B_U: Admin
+H_B_S: Sudo

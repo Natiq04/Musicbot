@@ -1,0 +1,698 @@
+name: 🇺🇿 Uzbek
+general_1: Foydalanuvchining xabariga javob bering yoki foydalanuvchi nomi/foydalanuvchi identifikatorini bering.
+general_2: |-
+  So‘rovingizni qayta ishlashda nimadir xato ketdi.
+
+  Istisno: <code>{0}</code>
+general_3: Siz ushbu chatda anonim administratorsiz, mendan foydalanganingiz uchun foydalanuvchi hisobiga qayting.
+general_4: |-
+  Sizda video chatlarni boshqarish uchun ruxsat yo‘q.
+
+  /reload orqali administrator keshini qayta yuklang
+general_5: » Bot videochatda translatsiya qilmayapti.
+tg_1: |-
+  <u><b>{0} downloader</b></u>
+
+  <b>File size :</b> {1}
+  <b>Completed :</b> {2}
+  <b>Percentage :</b> {3}%
+
+  <b>Speed :</b> {4}/s
+  <b>Eta :</b> {5}
+tg_2: |-
+  Muvaffaqiyatli yuklab olindi, faylga ishlov berilmoqda...
+  
+  <b>O'tgan vaqt:</b> {0}
+tg_3: Telegramdan media yuklab boʻlmadi, qayta urinib koʻring...
+tg_4: Yuklab olish allaqachon tugallangan.
+tg_5: Yuklab olish allaqachon tugallangan yoki bekor qilingan.
+tg_6: Yuklab olish bekor qilindi.
+tg_7: "Yuklab olish bekor qilindi: {0}"
+tg_8: Yuklab olishni to‘xtatib bo‘lmadi.
+tg_9: Davom etayotgan yuklab olish vazifasi bajarilmadi...
+call_1: bot yordamchini taklif qilish uchun <b>havola orqali foydalanuvchilarni taklif qilish</b> ruxsatini talab qiladi
+ suhbatingizga.
+call_2: |-
+  <u>{0} Assistent guruhingizda/kanalingizda taqiqlangan.</u>
+
+  <b>ID :</b> <code>{1}</code>
+  <b>Ism:</b> {2}
+  <b>Foydalanuvchi nomi:</b> @{3}
+
+  Iltimos, yordamchini blokdan olib tashlang va qaytadan urining.
+call_3: |-
+  {0} yordamchisi chatingizga taklif qilinmadi.
+
+  Sababi: <code>{1}</code>
+call_4: |-
+  Iltimos kuting...
+
+  Chatingizga {0} yordamchisi taklif qilinmoqda...
+call_5: |-
+  {0} Assistent muvaffaqiyatli qo‘shildi.
+
+  Translatsiyani boshlashga urinilmoqda...
+call_6: Strimni almashtirib bo‘lmadi, trekni qayta o‘zgartirish uchun /skip dan foydalaning.
+call_7: |-
+  Navbatdagi keyingi trek yuklab olinmoqda.
+
+  Iltimos, turing...
+call_8: |-
+  <b>Hech qanday faol videochat topilmadi.</b>
+
+  Iltimos, guruh/kanalingizda videochatni boshlang va qaytadan urining.
+call_9: >-
+  <b>Assistent allaqachon videochatda.</b>
+
+
+  Agar yordamchi videochatda boʻlmasa, iltimos, <code>/reboot</code> yuboring va qayta oʻynang.
+call_10: >-
+  <b>Telegram serverida xato</b>
+
+
+  Telegramda baʼzi ichki muammolar bor, iltimos, qayta oʻynab koʻring yoki guruhingizning videochatini qayta yoqing.
+auth_1: Guruhingizda faqat 25 ta ruxsat berilgan foydalanuvchi bo'lishi mumkin.
+auth_2: "{0} ruxsat berilgan foydalanuvchilar roʻyxatiga qoʻshildi."
+auth_3: "{0} allaqachon ruxsat berilgan foydalanuvchilar roʻyxatida."
+auth_4: "{0} ruxsat berilgan foydalanuvchilar roʻyxatidan olib tashlandi."
+auth_5: "{0} ruxsat berilgan foydalanuvchilar ro‘yxatida emas."
+auth_6: Ruxsat berilgan foydalanuvchilar roʻyxati olinmoqda...
+auth_7: |+
+  {0} da ruxsat berilgan foydalanuvchilar roʻyxati:
+
+auth_8: <b> Qo'shilgan:</b>
+reload_1: |-
+  Administrator keshini faqat 3 daqiqada bir marta yangilashingiz mumkin.
+
+  {0} dan keyin urinib koʻring.
+reload_2: Administrator keshi muvaffaqiyatli yangilandi.
+reload_3: Administrator keshini qayta yuklab bo‘lmadi, suhbatingizda bot administrator ekanligiga ishonch hosil qiling.
+reload_4: |-
+  Iltimos kuting...
+
+  Suhbatingiz uchun {0} qayta ishga tushirilmoqda.
+reload_5: |-
+  Suhbatingiz uchun {0} muvaffaqiyatli qayta ishga tushirildi.
+
+  Qayta oʻynashni boshlang...
+admin_1: Translatsiyani davom ettirganingizni esladingizmi?
+admin_2: "Oqim pauza qilindi: {0}"
+admin_3: Translatsiyani to'xtatib qo'yganingizni esladingizmi?
+admin_4: "Translatsiyani davom ettirdi: {0}"
+admin_5: "Translatsiya tugadi/to‘xtadi: {0}"
+admin_6: |-
+  Translatsiya oʻtkazib yuborildi: {0}
+
+  <b>Boshqa navbatda qoʻyilgan treklar yoʻq</b> {1}, <b>Videochatdan chiqilmoqda.</b>
+admin_7: Translatsiyani {0} ga almashtirishda xatolik yuz berdi.
+admin_8: Iltimos, <code>/loop disable</code> orqali sikl o'ynashni o'chirib qo'ying va keyin harakat qilib ko'ring
+ yana o'tkazib yuboring.
+admin_9: Iltimos, oʻtkazib yuborish uchun 1, 2, 4... kabi aniq raqamlardan foydalaning.
+admin_10: |-
+  Muayyan o'tkazib yuborish uchun navbatda kamida 2 trek kerak.
+
+  Navbatni : /queue orqali tekshiring
+admin_11: |-
+  Muayyan oʻtkazib yuborish uchun navbatdagi treklar yetarli emas.
+
+  1 dan {0} gacha oʻtkazib yuboring
+admin_12: |-
+  Muayyan trekka o‘tib bo‘lmadi.
+
+  Navbatni : /queue orqali tekshiring
+admin_13: "Iltimos, administrator keshini quyidagi orqali qayta yuklang: /reload"
+admin_14: |-
+  Sizda video chatlarni boshqarish uchun ruxsat yo‘q.
+
+  Administrator keshini quyidagi orqali qayta yuklang: /reload
+admin_15: |-
+  Aralashtirib bo‘lmadi.
+
+  Navbatni : /queue orqali tekshiring
+admin_16: |-
+  Navbatni {0} aralashtirdi.
+
+  Navbatni : /queue orqali tekshiring
+admin_17: |-
+  <b>Misol :</b>
+
+  /loop <code>enable</code>/<code>disable</code>
+  /loop <code>10</code>/<code>9</code>/<code>8</code>/<code>7</code>
+admin_18: "Loop enabled for <code>{0}</code> times by : {1}."
+admin_19: "Loop play has been disabled by : {0}."
+admin_20: |-
+  <b>Misol :</b>
+
+  /seek yoki /seekback [davomiyligi soniyalarda]
+admin_21: Bir necha soniya ichida qidirish uchun raqamli raqamlardan foydalaning.
+admin_22: Jonli translatsiyalarni qidirib bo‘lmaydi.
+admin_23: |-
+  Qisqaroq muddat bilan izlashga harakat qiling.
+
+  <b>{0}</b> daqiqadan <b>{1}</b> daqiqa oʻynaldi.
+admin_24: |-
+  <b>Qidiruv...</b>
+
+  Iltimos, turing...
+admin_25: |-
+  » Strim muvaffaqiyatli qidirildi.
+
+  <b>Davomiyligi:</b> {0} daqiqa
+  <b>Muallif:</b> {1}
+admin_26: Qidirib bo'lmadi.
+admin_27: Hozirda faqat youtube oqimi tezligini boshqarish mumkin.
+admin_28: >-
+  <b><u>{0} Tezlikni boshqarish paneli</b></u>
+
+
+  Videochatda hozir ijro etilayotgan oqim tezligini o‘zgartirish uchun quyidagi tugmalarni bosing.
+admin_29: Bot allaqachon normal tezlikda o'ynamoqda.
+admin_30: |-
+  Iltimos kuting...
+
+  Yana kimdir oqim tezligini o'zgartirishga harakat qilmoqda.
+admin_31: Tezlik o'zgartirilmoqda...
+admin_32: |-
+  Davom etayotgan oqim tezligini oʻzgartirishga urinish...
+
+  <b>So'ragan: </b> {0}
+admin_33: Davom etayotgan oqim tezligini o‘zgartirib bo‘lmadi.
+admin_34: |-
+  Davom etayotgan oqim tezligi {0}x ga oʻzgartirildi
+
+  <b>So'ragan:</b> {1}
+admin_35: Ovoz berish yakunlandi, chunki ovoz berish uchun trek tugadi
+ taqdim etildi.
+admin_36: Bu amalni bajarib bo‘lmadi, chunki ovoz berish qaysi trekka bo‘lgan
+ taqdim etiladi yoki tugatiladi yoki to'xtatiladi.
+admin_37: Muvaffaqiyatli <code>{0}</code> ijobiy ovozlar oldi.
+admin_38: 1 ta ijobiy ovoz qoʻshildi.
+admin_39: 1 ta ijobiy ovoz olib tashlandi.
+admin_40: Yaxshi ovoz berildi.
+start_1: |-
+  {0} tirik.
+
+  <b>Ish vaqti:</b> {1}
+start_2: >-
+  {0} Sizni ko‘rganimdan xursandman
+
+  Men {1}
+
+
+  Men ovozli chatda musiqa va videoni ijro etish uchun mo'ljallangan botman.
+  Mening qo'llab-quvvatlaydigan platformalarim - Youtube, Spotify, Resso, Apple Music va SoundCloud
+  Quyidagi yordam tugmasini bosish orqali mening buyruqlarimni ko'rishingiz mumkin.
+start_3: |-
+  Salom {0},
+  Men {1}
+
+  Meni {2}({3}) roʻyxatiga qoʻshganingiz uchun tashakkur
+  Endi bu chatda qoʻshiqlarni ijro etish mumkin.
+start_4: |-
+  <b>Superguruh kerak</b>
+
+  Iltimos, <b>guruhingizni</b> <b>superguruhga</b> aylantiring va keyin meni yana qo'shing.
+
+  <b>Qanday qilib superguruh tuzish mumkin?</b>
+  - Guruhingiz chatlari tarixini bir marta <b>ko'rinadigan</b> qiling.
+start_5: >-
+  <b>Qora ro'yxatga kiritilgan chat</b>
+
+
+  Bu chat {0} maʼlumotlar bazasida qora roʻyxatga kiritilgan.
+
+  Chatingizni qora ro‘yxatdan chiqarish uchun<a href={1}>sudo foydalanuvchisi</a> yoki <a href={2}>qo‘llab-quvvatlash chatiga</a> tashrif buyuring.
+start_6: |-
+  <b>Ma'lumotni kuzatish</b>
+
+  <b>Sarlavha :</b> {0}
+
+  <b>Davomiyligi :</b> {1} minutes
+  <b>Koʻrishlar :</b> <code>{2}</code>
+  <b>Chop etilgan :</b> {3}
+  <b>Kanal :</b> <a href={4}>{5}</a>
+
+  <u><b>Qidiruv tomonidan quvvatlanadi {6}</b></u>
+help_1: |-
+  Yordam olmoqchi bo'lgan toifani tanlang.
+  Shubhalaringizni<a href={0}>qo‘llab-quvvatlash chatida</a> so‘rang
+
+  Barcha buyruqlar :<code>/</code> bilan ishlatilishi mumkin
+help_2: Mening yordam menyumni pm orqali olish uchun quyidagi tugmani bosing.
+lang_1: "Iltimos, ushbu guruhning standart tili sifatida oʻrnatmoqchi boʻlgan tilni tanlang:"
+lang_2: Til muvaffaqiyatli o'zgartirildi.
+lang_3: Tilni o‘zgartirib bo‘lmadi.
+lang_4: Siz allaqachon bir xil tildasiz.
+setting_1: |-
+  <u><b>{0} Sozlamalar paneli</b></u>
+
+  <b>Chat identifikatori :</b> <code>{1}</code>
+  <b>Chat sarlavhasi :</b> {2}
+
+  Sozlamalarni o'zgartirish uchun quyidagi tugmalarni bosing.
+setting_2: |-
+  To'g'ridan-to'g'ri: Qidiruv so'rovlarini bevosita o'ynaydi.
+
+  Inline : Video va audio o'rtasida tanlash uchun ichki tugmalarni qaytaradi.
+setting_3: >-
+  Hamma: Har kim administrator buyruqlaridan foydalanishi mumkin [o'tkazib yuborish, to'xtatib turish, davom ettirish va h.k.]
+  present in this group.
+
+
+  Faqat administrator: Administrator buyruqlaridan faqat administratorlar va vakolatli foydalanuvchilar foydalanishi mumkin.
+setting_4: Ruxsat berilgan foydalanuvchilar topilmadi.
+setting_5: |-
+  Guruh : Buyruq berilgan guruhda musiqa ijro etadi.
+
+  Kanal : siz xohlagan kanalda musiqa ijro etadi. /channelplay orqali kanal identifikatorini o'rnating
+setting_6: |-
+  Hamma: bu guruhda bo'lgan har bir kishi bu yerda musiqa ijro etishi mumkin.
+
+  Faqat admin: bu guruhda musiqani faqat adminlar ijro etishi mumkin.
+setting_7: Iltimos, /channelplay orqali kanal identifikatorini aniqlang
+setting_8: Ushbu rejim yoqilganda, administrator huquqiga ega bo'lmagan odamlar ma'lum miqdordagi ovozlardan keyin administrator buyruqlaridan foydalanishlari mumkin.
+setting_9: "Administrator buyruqlaridan foydalanish uchun talab qilinadigan joriy ijobiy ovozlar: {0}"
+setting_10: Ovoz berish rejimi o‘chirilgan.
+setting_11: Eng kam ijobiy ovozlar soni 2 boʻlishi mumkin. 2 dan pastroq qilib belgilay olmaysiz
+setting_12: Eng koʻp ijobiy ovozlar soni 15 boʻlishi mumkin. 15 dan yuqoriga belgilay olmaysiz
+set_cb_1: Foydalanuvchilar paneli olinmoqda...
+set_cb_2: Ijro rejimi paneli olinmoqda...
+set_cb_3: Oʻzgarishlar oʻrnatilmoqda...
+set_cb_4: Ruxsat berilgan foydalanuvchilar roʻyxati olinmoqda...
+set_cb_5: Qaytish...
+gstats_1: |-
+  {0} ta statistika va maʼlumotlar olinmoqda...
+
+  Biroz vaqt talab qilishi mumkin, iltimos...
+gstats_2: "{0} statistikasini tekshirish uchun quyidagi tugmalarni bosing."
+gstats_3: |-
+  <b><u>{0} Statistika va ma'lumotlar :</u></b>
+
+  <b>Yordamchilar :</b> <code>{1}</code>
+  <b>Bloklangan :</b> <code>{2}</code>
+  <b>Suhbatlar :</b> <code>{3}</code>
+  <b>Foydalanuvchilar :</b> <code>{4}</code>
+  <b>Modullar :</b> <code>{5}</code>
+  <b>Sudochilar :</b> <code>{6}</code>
+
+  <b>Avtomatik chiqish yordamchisi :</b> {7}
+  <b>O'yin davomiyligi chegarasi :</b> {8} daqiqa
+gstats_4: Bu tugma faqat sudoerlar uchun.
+gstats_5: |-
+  <b><u>{0} Stats and information :</u></b>
+
+  <b>Modules :</b> <code>{1}</code>
+  <b>Platform :</b> <code>{2}</code>
+  <b>Ram :</b> <code>{3}</code>
+  <b>Physical cores :</b> <code>{4}</code>
+  <b>Total cores :</b> <code>{5}</code>
+  <b>Cpu frequency :</b> <code>{6}</code>
+
+  <b>Python :</b> <code>{7}</code>
+  <b>Pyrogram :</b> <code>{8}</code>
+  <b>Py-TgCalls :</b> <code>{9}</code>
+
+  <b>Storage available :</b> <code>{10} GB</code>
+  <b>Storage used :</b> <code>{11} GB</code>
+  <b>Storage left :</b> <code>{12} GB</code>
+
+  <b>Served chats :</b> <code>{13}</code>
+  <b>Served users :</b> <code>{14}</code>
+  <b>Blocked users :</b> <code>{15}</code>
+  <b>Sudo users :</b> <code>{16}</code>
+
+  <b>Total db size :</b> <code>{17} ᴍʙ</code>
+  <b>Total db storage :</b> <code>{18} ᴍʙ</code>
+  <b>Total db collections :</b> <code>{19}</code>
+  <b>Total db keys:</b> <code>{20}</code>
+playcb_1: Aww, this is not for you baby.
+playcb_2: |-
+  Keyingi natijani olish,
+
+  Iltimos kuting...
+cplay_1: >-
+  Siz {0} dan istalgan kanalga yoki chatingizdagi kanallarda musiqa tinglashingiz mumkin
+  bog'langan kanal.
+
+
+  <b>Bog'langan kanal uchun :</b>
+
+  <code>/channelplay linked</code>
+
+
+  <b>Boshqa har qanday kanal uchun :</b>
+
+  <code>/channelplay [Kanal identifikatori]</code>
+cplay_2: Bu chatda bog‘langan kanal yo‘q.
+cplay_3: |-
+  Kanal aniqlangan: {0}.
+  Kanal identifikatori : <code>{1}</code>
+cplay_4: |-
+  Failed to get channel.
+
+  Make sure you've added the bot in your channel and promoted as admin.
+cplay_5: Faqat kanallar qo'llab-quvvatlanadi.
+cplay_6: >-
+  Bunga ulanish uchun siz {0} kanalining egasi boʻlishingiz kerak
+  guruh.
+
+  <b>Kanal egasi :</b> @{1}
+
+
+  Shu bilan bir qatorda, guruhingizni oʻsha kanalga bogʻlashingiz va keyin <code>/channelplay linked</code> bilan ulanishga harakat qilishingiz mumkin.
+cplay_7: Kanal ijrosi o‘chirilgan.
+play_1: 🦭
+play_2: |-
+  <b>Kanal o'ynash rejimi</b>
+
+  Qayta ishlanmoqda, kuting...
+
+  <b>Bog'langan kanal :</b> {0}
+play_3: So‘rovni amalga oshirib bo‘lmadi.
+play_4: |-
+  <b>Faqat adminlar o'ynaydi</b>
+  Ushbu chatning faqat administratorlari o'ynashlari mumkin
+
+  O'yin rejimini /playmode orqali o'zgartiring
+play_5: |-
+  Audio faylni qayta ishlash amalga oshmadi.
+
+  Audio fayl hajmi belgilangan chegaradan kattaroq.
+play_6: "{0} dan uzunroq translatsiyani {1} da oʻynashga ruxsat berilmagan"
+play_7: |-
+  Yaroqli video fayl kengaytmasi emas.
+
+  <b>Qo'llab-quvvatlanadigan kengaytmalar:</b> {0}
+play_8: Video fayl hajmi 1 GB dan kam bo'lishi kerak.
+play_9: |-
+  <b><u>Youtube pleylist xususiyati</b></u>
+
+  Butun youtube pleylistini o'ynatmoqchi bo'lgan rejimni tanlang.
+play_10: |-
+  <b>Sarlavha :</b> {0}
+  <b>Davomiyligi:</b> {1} minutes
+play_11: |-
+  <u><b>{0} Spotify o'yinchisi</b></u>
+
+  <b>So'ragan:</b> {1}
+play_12: |-
+  <u><b>{0} Apple o'yinchisi</b></u>
+
+  <b>So'ragan:</b> {1}
+play_13: |-
+  Jonli oqim aniqlandi.
+
+  Bu jonli translatsiyani o‘ynashni xohlayotganingizga ishonchingiz komilmi?
+play_14: |-
+  Trek tafsilotlarini olib bo‘lmadi.
+
+  @XezerVideoBot qo'shish orqali trekni o'ynatib ko'ring.
+play_15: |-
+  So‘rovni amalga oshirib bo‘lmadi.
+
+  Men faqat spotify treklari, albomlari, ijrochilar va pleylistlarni ijro eta olaman.
+play_16: |-
+  Faol ovozli chat yo'q.
+
+  Kuchli ᴩlay ishlatish uchun faol ovozli suhbat bo'lishi kerak.
+play_17: Iltimos, videochatni yoqing, men urllarni uzata olmayapman.
+play_18: <b>Foydalanish:</b> /play [qo'shiq nomi/youtube url/audio/video faylga javob]
+play_19: "Navbatdagi pleylist:"
+play_20: Navbatdagi joy -
+play_21: |-
+  Navbatga {0} ta trek qoʻshildi.
+
+  <b>Tekshirish :</b> <a href={1}>bu yerni bosing</a>
+play_22: "Guruhingiz ichidagi soʻrovlarni oʻynatmoqchi boʻlgan rejimni tanlang : {0}"
+str_1: Iltimos, m3u8 yoki indeks havolalarini taqdim eting.
+str_2: |-
+  Yaroqli oqim tasdiqlandi.
+
+  Qayta ishlanmoqda...
+str_3: YouTube jonli translatsiyasi amalga oshmadi, jonli format topilmadi.
+ping_1: "{0} Is pinging..."
+ping_2: |-
+  🏓 Pong : <code>{0}ms</code>
+
+  <b><u>{1} System stats :</u></b>
+
+  Uptime : {2}
+  Ram : {3}
+  CPU : {4}
+  Disk : {5}
+  Py-TgCalls : <code>{6}ᴍs</code>
+queue_1: |-
+  Navbat olinmoqda...
+
+  Iltimos kuting...
+queue_2: Navbat boʻsh.
+queue_3: <u>» Navbatdagi treklar ro'yxatini tekshirish uchun shu yerni bosing :</u> <a
+  href={0}>Bu yerga</a>
+queue_4: |-
+  ➲ <b>Navbatga qo'shildi #{0}
+
+  ‣ Sarlavha :</b> {1}
+  <b>‣ Davomiyligi :</b> {2} minutes
+  <b>‣ Tomonidan talab qilingan :</b> {3}
+queue_5: |-
+  Pleylistda faqat bitta navbatda turgan trek bor.
+
+  Tekshirish ro'yxatiga qo'shimcha treklarni qo'shing.
+queue_6: |-
+  <b>Davomiyligi :</b> noma'lum davomiy oqim
+
+  Toʻliq navbat roʻyxatini olish uchun quyidagi tugmani bosing.
+queue_7: |-
+  
+  To'liq navbat ro'yxatini olish uchun quyidagi tugmani bosing.
+queue_8: |-
+  <b>{0} O'yinchi</b>
+
+  <b>Oqim:</b> {1}
+
+  <b>Oqim turi:</b> {2}
+  <b>So'ragan:</b> {3}
+  {4}
+stream_1: |-
+  ➲ <b>Striming boshlandi |</b>
+
+  <b>‣ Sarlavha :</b> <a href={0}>{1}</a>
+  <b>‣ Davomiyligi :</b> {2} minutes
+  <b>‣ Tomonidan talab qilingan :</b> {3}
+stream_2: |-
+  ➲ <b>Striming boshlandi |</b>
+
+  <b>‣ Oqim turi :</b> live stream [url]
+  <b>‣ Tomonidan talab qilingan :</b> {0}
+CLOSE_BUTTON: Yopish
+BACK_BUTTON: Orqaga
+S_B_1: Meni qo'shing
+S_B_2: Qo'llab-quvvatlash
+S_B_3: Meni guruhingizga qo'shing
+S_B_4: Yordam & buyruqlar
+S_B_5: Dasturchi
+S_B_6: Kanal
+S_B_7: Til
+S_B_8: Youtube
+S_B_9: Qo'llab-quvvatlash
+H_B_1: Admin
+H_B_2: Aᴜᴛʜ
+H_B_3: Bʀᴏᴀᴅᴄᴀsᴛ
+H_B_4: Bʟ-Cʜᴀᴛ
+H_B_5: Bʟ-Usᴇʀ
+H_B_6: C-Pʟᴀʏ
+H_B_7: G-Bᴀɴ
+H_B_8: Lᴏᴏᴘ
+H_B_9: Mᴀɪɴᴛᴇɴᴀɴᴄᴇ
+H_B_10: Pɪɴɢ
+H_B_11: Pʟᴀʏ
+H_B_12: Sʜᴜғғʟᴇ
+H_B_13: Sᴇᴇᴋ
+H_B_14: Sᴏɴɢ
+H_B_15: Sᴘᴇᴇᴅ
+P_B_1: Audio
+P_B_2: Video
+P_B_3: Jonli translatsiya
+P_B_4: Normal
+ST_B_1: Auth foydalanuvchilar
+ST_B_2: O'yin rejimi
+ST_B_3: Til
+ST_B_4: Ovoz berish rejimi
+ST_B_5: "On"
+ST_B_6: "Off"
+ST_B_7: Auth foydalanuvchilar
+ST_B_8: Adminlar
+ST_B_9: Hamma
+ST_B_10: Qidiruv rejimi
+ST_B_11: To'g'ridan-to'g'ri
+ST_B_12: Mos ravishda
+ST_B_13: Administrator buyruqlari
+ST_B_14: O'yin turi
+SA_B_1: Umumiy statistika
+SA_B_2: General
+SA_B_3: Umuman
+QU_B_1: Navbat
+QU_B_2: " {0} —————————— {1}"
+sudo_1: "{0} allaqachon sudo foydalanuvchilar ro'yxatida."
+sudo_2: "{0} sudo foydalanuvchilar roʻyxatiga qoʻshildi."
+sudo_3: "{0} sudo foydalanuvchilari roʻyxatida yoʻq."
+sudo_4: "{0} sudo foydalanuvchilar roʻyxatidan olib tashlandi."
+sudo_5: |
+  <u><b>Egasi :</b></u>
+sudo_6: |
+  
+  <u><b>Sudo foydalanuvchilari :</b></u>
+sudo_7: Sudo foydalanuvchilari topilmadi.
+sudo_8: Muvaffaqiyatsiz.
+block_1: » {0} ɪs ᴀʟʀᴇᴀᴅʏ ʙʟᴏᴄᴋᴇᴅ ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ.
+block_2: » ᴀᴅᴅᴇᴅ {0} ᴛᴏ ʙʟᴏᴄᴋᴇᴅ ᴜsᴇʀs ʟɪsᴛ.
+block_3: » {0} ɪs ɴᴏᴛ ɪɴ ʙʟᴏᴄᴋᴇᴅ ᴜsᴇʀs ʟɪsᴛ.
+block_4: » ʀᴇᴍᴏᴠᴇᴅ {0} ғʀᴏᴍ ʙʟᴏᴄᴋᴇᴅ ᴜsᴇʀs ʟɪsᴛ.
+block_5: » ɴᴏ ʙʟᴏᴄᴋᴇᴅ ᴜsᴇʀs ғᴏᴜɴᴅ.
+block_6: » ɢᴇᴛᴛɪɴɢ ʙʟᴏᴄᴋᴇᴅ ᴜsᴇʀs ʟɪsᴛ...
+block_7: |+
+  <b>😫 ʙʟᴏᴄᴋᴇᴅ ᴜsᴇʀs :</b>
+
+black_1: |-
+  <b>ᴇxᴀᴍᴘʟᴇ :</b>
+
+  /blacklistchat [ᴄʜᴀᴛ ɪᴅ]
+black_2: » ᴛʜɪs ᴄʜᴀᴛ ɪs ᴀʟʀᴇᴀᴅʏ ʙʟᴀᴄᴋʟɪsᴛᴇᴅ.
+black_3: » sᴜᴄᴄᴇssғᴜʟʟʏ ᴀᴅᴅᴇᴅ ᴛᴏ ʙʟᴀᴄᴋʟɪsᴛᴇᴅ ᴄʜᴀᴛs.
+black_4: |-
+  <b>ᴇxᴀᴍᴘʟᴇ :</b>
+
+  /whitelistchat [ᴄʜᴀᴛ ɪᴅ]
+black_5: » ᴛʜɪs ᴄʜᴀᴛ ɪs ɴᴏᴛ ʙʟᴀᴄᴋʟɪsᴛᴇᴅ.
+black_6: » sᴜᴄᴄᴇssғᴜʟʟʏ ʀᴇᴍᴏᴠᴇᴅ ғʀᴏᴍ ʙʟᴀᴄᴋʟɪsᴛᴇᴅ ᴄʜᴀᴛs.
+black_7: |+
+  » ʟɪsᴛ ᴏғ ʙʟᴀᴄᴋʟɪsᴛᴇᴅ ᴄʜᴀᴛs :
+
+black_8: » ɴᴏ ʙʟᴀᴄᴋʟɪsᴛᴇᴅ ᴄʜᴀᴛs ᴏɴ {0}.
+black_9: » sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ.
+maint_1: |-
+  <b>ᴇxᴀᴍᴘʟᴇ :</b>
+  /maintenance [ᴇɴᴀʙʟᴇ | ᴅɪsᴀʙʟᴇ]
+maint_2: » {0} ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ ᴍᴏᴅᴇ ᴇɴᴀʙʟᴇᴅ.
+maint_3: » {0} ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ ᴍᴏᴅᴇ ᴅɪsᴀʙʟᴇᴅ.
+maint_4: » ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ ᴍᴏᴅᴇ ɪs ᴀʟʀᴇᴀᴅʏ ᴇɴᴀʙʟᴇᴅ.
+maint_5: » ᴍᴀɪɴᴛᴇɴᴀɴᴄᴇ ᴍᴏᴅᴇ ɪs ᴀʟʀᴇᴀᴅʏ ᴅɪsᴀʙʟᴇᴅ.
+log_1: |-
+  <b>ᴇxᴀᴍᴘʟᴇ :</b>
+  /logger [ᴇɴᴀʙʟᴇ | ᴅɪsᴀʙʟᴇ]
+log_2: ᴇɴᴀʙʟᴇᴅ ʟᴏɢɢɪɴɢ.
+log_3: ᴅɪsᴀʙʟᴇᴅ ʟᴏɢɢɪɴɢ.
+broad_1: » sᴛᴀʀᴛᴇᴅ ʙʀᴏᴀᴅᴄᴀsᴛɪɴɢ...
+broad_2: |-
+  <b>ᴇxᴀᴍᴘʟᴇ :</b>
+
+  /broadcast [ᴍᴇssᴀɢᴇ ᴏʀ ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ]
+broad_3: » ʙʀᴏᴀᴅᴄᴀsᴛᴇᴅ ᴍᴇssᴀɢᴇ ᴛᴏ {0} ᴄʜᴀᴛs ᴡɪᴛʜ {1} ᴘɪɴs ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ.
+broad_4: » ʙʀᴏᴀᴅᴄᴀsᴛᴇᴅ ᴍᴇssᴀɢᴇ ᴛᴏ {0} ᴜsᴇʀs.
+broad_5: » sᴛᴀʀᴛɪɴɢ ᴀssɪsᴛᴀɴᴛ ʙʀᴏᴀᴅᴄᴀsᴛ...
+broad_6: |+
+  ➻ ᴀssɪsᴛᴀɴᴛ ʙʀᴏᴀᴅᴄᴀsᴛ :
+
+broad_7: ↬ ᴀssɪsᴛᴀɴᴛ {0} ʙʀᴏᴀᴅᴄᴀsᴛᴇᴅ ɪɴ {1} ᴄʜᴀᴛs.
+broad_8: » ᴘʟᴇᴀsᴇ ᴘʀᴏᴠɪᴅᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ ʙʀᴏᴀᴅᴄᴀsᴛ.
+server_1: » ғᴀɪʟᴇᴅ ᴛᴏ ɢᴇᴛ ʟᴏɢs.
+server_2: ᴘʟᴇᴀsᴇ ᴍᴀᴋᴇ sᴜʀᴇ ᴛʜᴀᴛ ʏᴏᴜʀ ʜᴇʀᴏᴋᴜ ᴀᴘɪ ᴋᴇʏ ᴀɴᴅ ᴀᴘᴘ ɴᴀᴍᴇ ᴀʀᴇ ᴄᴏɴғɪɢᴜʀᴇᴅ
+  ᴄᴏʀʀᴇᴄᴛʟʏ.
+server_3: ᴄʜᴇᴄᴋɪɴɢ ꜰᴏʀ ᴀᴠᴀɪʟᴀʙʟᴇ ᴜᴘᴅᴀᴛᴇs...
+server_4: ɢɪᴛ ᴄᴏᴍᴍᴀɴᴅ ᴇʀʀᴏʀ.
+server_5: ɪɴᴠᴀʟɪᴅ ɢɪᴛ ʀᴇᴘsɪᴛᴏʀʏ.
+server_6: » ʙᴏᴛ ɪs ᴜᴘ-ᴛᴏ-ᴅᴀᴛᴇ.
+server_7: » ʙᴏᴛ ᴜᴩᴅᴀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ! ɴᴏᴡ ᴡᴀɪᴛ ғᴏʀ ғᴇᴡ ᴍɪɴᴜᴛᴇs ᴜɴᴛɪʟ ᴛʜᴇ ʙᴏᴛ
+  ʀᴇsᴛᴀʀᴛs ᴀɴᴅ ᴩᴜsʜ ᴄʜᴀɴɢᴇs !
+server_8: |-
+  {0} ɪs ʀᴇsᴛᴀʀᴛɪɴɢ...
+
+  ʏᴏᴜ ᴄᴀɴ sᴛᴀʀᴛ ᴩʟᴀʏɪɴɢ ᴀɢᴀɪɴ ᴀғᴛᴇʀ 15-20 sᴇᴄᴏɴᴅs.
+server_9: sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ, ᴩʟᴇᴀsᴇ ᴄʜᴇᴄᴋ ʟᴏɢs.
+server_10: "ᴀɴ ᴇxᴄᴇᴩᴛɪᴏɴ ᴏᴄᴄᴜʀᴇᴅ ᴀᴛ #ᴜᴩᴅᴀᴛᴇʀ ᴅᴜᴇ ᴛᴏ : <code>{0}</code>"
+server_11: » ʀᴜɴɴɪɴɢ ᴀ sᴘᴇᴇᴅᴛᴇsᴛ...
+server_12: <b>⇆ ʀᴜɴɴɪɴɢ ᴅᴏᴡɴʟᴏᴀᴅ sᴩᴇᴇᴅᴛᴇsᴛ...</b>
+server_13: <b>⇆ ʀᴜɴɴɪɴɢ ᴜᴩʟᴏᴀᴅ sᴩᴇᴇᴅᴛᴇsᴛ...</b>
+server_14: <b>↻ sʜᴀʀɪɴɢ sᴩᴇᴇᴅᴛᴇsᴛ ʀᴇsᴜʟᴛs...</b>
+server_15: |-
+  ✯ <b>sᴩᴇᴇᴅᴛᴇsᴛ ʀᴇsᴜʟᴛs</b> ✯
+
+  <u><b>ᴄʟɪᴇɴᴛ :</b></u>
+  <b>» ɪsᴩ :</b> {0}
+  <b>» ᴄᴏᴜɴᴛʀʏ :</b> {1}
+
+  <u><b>sᴇʀᴠᴇʀ :</b></u>
+  <b>» ɴᴀᴍᴇ :</b> {2}
+  <b>» ᴄᴏᴜɴᴛʀʏ :</b> {3}, {4}
+  <b>» sᴩᴏɴsᴏʀ :</b> {5}
+  <b>» ʟᴀᴛᴇɴᴄʏ :</b> {6}
+  <b>» ᴩɪɴɢ :</b> {7}
+gban_1: » ᴡʜʏ ᴅɪᴅ ʏᴏᴜ ᴡᴀɴɴᴀ ɢʙᴀɴ ʏᴏᴜʀsᴇʟғ ʙᴀʙʏ ?
+gban_2: » ᴡʜʏ sʜᴏᴜʟᴅ ɪ ɢʙᴀɴ ᴍʏsᴇʟғ ?
+gban_3: » ʏᴏᴜ ᴄᴀɴ'ᴛ ɢʙᴀɴ ᴍʏ sᴜᴅᴏᴇʀs.
+gban_4: » {0} ɪs ᴀʟʀᴇᴀᴅʏ ɢʟᴏʙᴀʟʟʏ ʙᴀɴɴᴇᴅ ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ.
+gban_5: |-
+  » ɪɴɪᴛɪᴀʟɪᴢɪɴɢ ɢʟᴏʙᴀʟ ʙᴀɴ ᴏɴ {0}.
+
+  <b>ᴛɪᴍᴇ ᴇxᴘᴇᴄᴛᴇᴅ :</b> {1}
+gban_6: |-
+  <b><u>ɴᴇᴡ ɢʟᴏʙᴀʟ ʙᴀɴ ᴏɴ {0} :</u></b>
+
+  <b>ᴏʀɪɢɪɴᴀᴛᴇᴅ ғʀᴏᴍ :</b> {1} [<code>{2}</code>]
+  <b>ᴜsᴇʀ :</b> {3}
+  <b>ᴜsᴇʀ ɪᴅ :</b> {4}
+
+  <b>ʙᴀɴɴᴇᴅ ʙʏ :</b> {5}
+  <b>ᴄʜᴀᴛs :</b> </code>{6}</code>
+gban_7: » {0} ɪs ɴᴏᴛ ɢʙᴀɴɴᴇᴅ ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ.
+gban_8: |-
+  » ʟɪғᴛɪɴɢ ɢʟᴏʙᴀʟ ʙᴀɴ ғʀᴏᴍ {0}.
+
+  <b>ᴇxᴘᴇᴄᴛᴇᴅ ᴛɪᴍᴇ :</b> {1}
+gban_9: |-
+  » ʟɪғᴛᴇᴅ ɢʟᴏʙᴀʟ ʙᴀɴ ғʀᴏᴍ {0}.
+
+  ᴜɴʙᴀɴɴᴇᴅ ɪɴ {1} ᴄʜᴀᴛs.
+gban_10: » ɴᴏ ᴏɴᴇ ɪs ɢʟᴏʙᴀʟʟʏ ʙᴀɴɴᴇᴅ ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ.
+gban_11: » ғᴇᴛᴄʜɪɴɢ ɢʙᴀɴɴᴇᴅ ᴜsᴇʀs ʟɪsᴛ...
+gban_12: |+
+  🙂 <b>ɢʟᴏʙᴀʟʟʏ ʙᴀɴɴᴇᴅ ᴜsᴇʀs :</b>
+#-------------------------------------------------------
+users: |-
+  👨‍🎓 Foydalanuvchi buyruqlari
+
+  ‣ /play: Musiqa ijro etadi
+  ‣ /vplay: Videoni o'ynaydi
+  ‣ /start: Musiqa botini ishga tushiradi
+  ‣ /help: Buyruqlar tushuntirishlari bilan yordam menyusini oling
+  ‣ /ping: botning kechikishi va tizim statistikasini ko'rsatadi
+  ‣ /stats: Umumiy bot statistikasini ko'rsatadi
+admins: |-
+  🕵 Administrator buyruqlari
+
+  ‣ /playmode: foydalanuvchi tajribasini sozlaydi
+  ‣ /pause: Vaqtinchalik pauza qiladi
+  ‣ /resume: Davom etish to'xtatildi
+  ‣ /skip: Keyingi musiqaga oʻtadi
+  ‣ /end yoki /stop: Kelgusi treklarni o'chiradi va joriy ijroni to'xtatadi
+  ‣ /queue: Roʻyxatni koʻrsatadi
+  ‣ /auth [foydalanuvchi nomi/foydalanuvchi_ID]
+  ‣ /unauth [foydalanuvchi nomi/foydalanuvchi_ID]
+  ‣ /authusers: Guruh uchun zaxira foydalanuvchi roʻyxatini koʻrsatadi
+  ‣ /shuffle: Navbatni aralashtirib yuboradi
+  ‣ /queue: Aralashtirilgan navbatni ko'rsatadi
+  
+sudos: |-
+  👮‍♂ Egasi buyruqlari
+
+  ‣ /logger [yoqish/o‘chirish]
+  ‣ /gban [foydalanuvchi nomi yoki javob] : Guruhlarga kirishni taqiqlash
+  ‣ /ungban [foydalanuvchi nomi yoki javob] : global miqyosda taqiqni olib tashlaydi
+  ‣ /gbannedusers : Dunyo boʻylab taqiqlangan foydalanuvchilarni koʻrsatadi
+  ‣ /blacklistchat [chat ID] : Botdan foydalanishdan chatni olib tashlaydi
+  ‣ /whitellistchat [chat ID] : Oldin qora roʻyxatga kiritilgan suhbatga ruxsat beradi
+  ‣ /qora roʻyxatga olinganchat : Qora roʻyxatga kiritilgan chatlarni koʻrsatadi
+
+H_B_K: Foydalanuvchi
+H_B_U: Admin
+H_B_S: Sudo
