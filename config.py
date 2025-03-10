@@ -8,7 +8,7 @@ load_dotenv()
 API_ID = 20235406
 API_HASH = "968860b04772cb5b44f4ca8603bed9d3"
 BOT_TOKEN = "6388818920:AAE5GYIPOzBoGeLn76HxfaiH1WHDV9jfhlQ"
-MONGO_DB_URI = "mongodb+srv://xguliyev:xguliyev@iconmusicbot.5icrs.mongodb.net/?retryWrites=true&w=majority&appName=iconmusicbot"
+MONGO_DB_URI = "mongodb+srv://abbasovnatiq828:natiq.12344321@cluster0.rmizp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 DURATION_LIMIT_MIN = 45
 LOGGER_ID = -1002150762661
 OWNER_ID = 7287936548
