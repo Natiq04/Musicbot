@@ -7,18 +7,18 @@ load_dotenv()
 
 API_ID = 20235406
 API_HASH = "968860b04772cb5b44f4ca8603bed9d3"
-BOT_TOKEN = "7077291746:AAFqLpvfUwRGVMa2cPmHv1VQZnzAbBD4G6E"
+BOT_TOKEN = ""
 MONGO_DB_URI = "mongodb+srv://SumgaitProject:SumgaitProject@sumgaitproject.daihrs3.mongodb.net/?retryWrites=true&w=majority"
 DURATION_LIMIT_MIN = 45
-LOGGER_ID = -1002129219872
-OWNER_ID = 6491663584
+LOGGER_ID = 
+OWNER_ID = 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 UPSTREAM_REPO = "https://github.com/Natiq04/Musicbot"
 UPSTREAM_BRANCH = "master"
 GIT_TOKEN = "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"
-SUPPORT_CHANNEL = "https://t.me/XezerBots"
-SUPPORT_CHAT = "https://t.me/XezerSupport"
+SUPPORT_CHANNEL = ""
+SUPPORT_CHAT = ""
 AUTO_LEAVING_ASSISTANT = True
 SPOTIFY_CLIENT_ID = "3de78b162b6f41ee860a93feee067cd1"
 SPOTIFY_CLIENT_SECRET = "3a7face20ae24a078d210023c8f682b9"
