@@ -7,18 +7,18 @@ load_dotenv()
 
 API_ID = 20235406
 API_HASH = "968860b04772cb5b44f4ca8603bed9d3"
-BOT_TOKEN = ""
+BOT_TOKEN = "6388818920:AAE5GYIPOzBoGeLn76HxfaiH1WHDV9jfhlQ"
 MONGO_DB_URI = "mongodb+srv://SumgaitProject:SumgaitProject@sumgaitproject.daihrs3.mongodb.net/?retryWrites=true&w=majority"
 DURATION_LIMIT_MIN = 45
-LOGGER_ID = 
-OWNER_ID = 
+LOGGER_ID = -1002150762661
+OWNER_ID = 7287936548
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 UPSTREAM_REPO = "https://github.com/Natiq04/Musicbot"
 UPSTREAM_BRANCH = "master"
 GIT_TOKEN = "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"
-SUPPORT_CHANNEL = ""
-SUPPORT_CHAT = ""
+SUPPORT_CHANNEL = "https://t.me/GtaXatirelerKanal"
+SUPPORT_CHAT = "https://t.me/silgiub"
 AUTO_LEAVING_ASSISTANT = True
 SPOTIFY_CLIENT_ID = "3de78b162b6f41ee860a93feee067cd1"
 SPOTIFY_CLIENT_SECRET = "3a7face20ae24a078d210023c8f682b9"
